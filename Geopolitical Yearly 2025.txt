@@ -1,0 +1,41 @@
+Geopolitical Yearly 2025:
+### Executive Risk Brief: January 2026 Global Threat Landscape
+
+**To:** Executive Committee / Chief Risk Officer
+**From:** Senior Cyber Threat Intelligence Analyst
+**Date:** February 2026
+**Subject:** Geopolitical Drivers and Cyber-Financial Reflexes – January 2026
+
+The following assessment isolates the primary geopolitical events of January 2026 and their immediate reflex on our cybersecurity and operational risk posture. The disintegration of the post-Cold War order has accelerated, with state actors now overtly integrating kinetic and cyber capabilities.
+
+---
+
+### **North America**
+**Title: The "Donroe Doctrine" & Operation Absolute Resolve**
+*   **Geopolitical Event:** On **January 3, 2026**, the U.S. executed "Operation Absolute Resolve," utilizing **US Cyber Command** to blackout Caracas and disable air defense systems during the extraction of Venezuelan President Nicolás Maduro. Simultaneously, the **January 23 release of the 2026 National Defense Strategy** formalized the "Donroe Doctrine," prioritizing hemispheric defense over global policing, while the **DOJ's January 10 investigation** into Fed Chair Jerome Powell introduced unprecedented institutional unpredictability.
+*   **Cybersecurity Impact:** The visible success of the U.S. blackout operation has legitimized grid-disruption malware as a standard statecraft tool, elevating the threat of retaliatory **wiper attacks** against U.S. financial infrastructure. Concurrently, **North America sustained 52% of global ransomware attacks** in January, and the **TGR-STA-1030** group (Asian state-nexus) aggressively targeted critical infrastructure to exploit the distraction caused by the strategic pivot.
+
+### **Latin America**
+**Title: Post-Maduro Vacuum & The "BlackStink" Campaign**
+*   **Geopolitical Event:** The forced removal of the Maduro regime created an immediate power vacuum and civil unrest across Venezuela, complicating the operational landscape for energy and finance sectors despite the installation of interim president **Delcy Rodríguez**. This instability is compounded by a regional shift toward right-wing deregulation (e.g., Argentina, El Salvador) clashing with the volatile transition in Caracas.
+*   **Cybersecurity Impact:** Financial institutions in the region are facing a targeted surge in the **"BlackStink" malware campaign**, identified in late January. This campaign deploys malicious **Chrome extensions** disguised as cloud services to infiltrate banking portals, inject fake transaction forms, and hijack sessions in real-time, specifically exploiting the chaotic regulatory environment to mask fraudulent transfers.
+
+### **Europe**
+**Title: The Greenland Tariff Shock & The Ivanti Breach**
+*   **Geopolitical Event:** Transatlantic relations ruptured between **January 12–21** during the "Greenland Crisis," where the U.S. threatened **10–25% tariffs** on eight European nations (including Germany, France, and the UK) to force the sale of Greenland. While a fragile "framework" deal was reached at Davos on Jan 21, the activation of the EU's **Anti-Coercion Instrument** remains a live option, signaling structurally higher trade risk.
+*   **Cybersecurity Impact:** Amidst this diplomatic fracture, the **European Commission suffered a breach** on **January 30** via a zero-day in **Ivanti Endpoint Manager Mobile (EPMM)**, exposing staff data. Simultaneously, Russian hybrid warfare intensified, with **GPS jamming now affecting 40% of EU air traffic**, creating significant operational risks for aviation finance and logistics supply chains.
+
+### **Asia-Pacific (APAC)**
+**Title: Strategic Retrenchment & The "Shadow Campaigns"**
+*   **Geopolitical Event:** The U.S. **2026 National Defense Strategy** explicitly deemphasized the Indo-Pacific in favor of the Western Hemisphere, a "denial of defense" shift that emboldened Beijing to conduct a drone flight over **Pratas Island on January 17** and escalate "gray zone" pressure. This signals a potential decrease in U.S. intervention guarantees for regional hotspots.
+*   **Cybersecurity Impact:** The **TGR-STA-1030** group launched the "Shadow Campaigns," compromising **70 organizations across 37 countries** (including Ministries of Finance) to harvest intelligence on trade policy during this strategic transition. Additionally, **APT38 (Lazarus)** deployed a new **Linux variant of the "Badcall" backdoor**, targeting SWIFT endpoints and crypto exchanges to monetize the regional uncertainty.
+
+### **Middle East**
+**Title: "Maximum Pressure" & Maritime GPS Warfare**
+*   **Geopolitical Event:** Tensions spiked with the U.S. downing of an Iranian drone near the **USS Abraham Lincoln** and the imposition of "maximum pressure" sanctions on **Iran's shadow fleet** exporting oil to China. This coincides with severe domestic protests in Iran and currency instability, heightening the risk of asymmetric retaliation against Western assets.
+*   **Cybersecurity Impact:** The theater has normalized widespread **GPS spoofing** in the Persian Gulf, disrupting civil maritime traffic and complicating trade finance tracking. Hacktivist groups like **"Shadow Unit"** have surged DDoS and data leak operations against Israeli and Egyptian financial targets, increasing third-party risk for banks with regional exposure.
+
+### **Africa**
+**Title: Resource Nationalism & The "Coup Belt" Cyber Gap**
+*   **Geopolitical Event:** The region faces a deepening "crisis of democracy" with entrenched military regimes in the Sahel and a dense **2026 electoral calendar** in fragile states like Uganda, exacerbating instability. China's launch of a **2025-2026 Digital Cooperation Plan** seeks to cement dominance in African 5G and AI infrastructure amidst this governance void.
+*   **Cybersecurity Impact:** The continent is suffering **$5 billion in annual cybercrime losses**, with Nigeria and Kenya as primary targets. The lack of unified regulatory frameworks is being exploited by Asian state-aligned groups targeting the **mining sector** (specifically for cobalt and rare earths) to secure supply chains critical to the global tech stack.
