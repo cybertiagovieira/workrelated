@@ -1,0 +1,33 @@
+Here is the framework and content designed specifically for your Risk Committee presentation. 
+
+***
+
+### **PART 1: Proposed Monthly Structure for the "Crypto & Digital Assets" Slide**
+
+To ensure consistency, avoid overlap with your other intelligence slides, and keep the focus relevant to European banking RISK executives, this slide should follow a strict three-pillar structure each month. 
+
+*   **Pillar 1: Market & Institutional Infrastructure Dynamics:** Tracks the systemic integration of digital assets into traditional finance (e.g., tokenization, stablecoin liquidity, ETF flows) and market volatility that could impact institutional balance sheets or counterparty risk.
+*   **Pillar 2: Global Regulatory & Compliance Shifts:** Highlights critical legislative changes, supervisory expectations, and enforcement actions globally (e.g., MiCA, DORA, Basel rules, U.S. SEC/OCC actions) that impact the bank's operational compliance and strategic entry into digital assets.
+*   **Pillar 3: Web3 Security & Illicit Finance Vectors:** Isolates threats unique to the digital asset ecosystem that fall outside traditional enterprise IT security (e.g., smart contract exploits, DeFi oracle manipulation, crypto-laundering typologies, and physical risks to crypto holders).
+
+***
+
+### **PART 2: Slide Content for February 2026**
+
+**Slide Title: Crypto & Digital Assets: February 2026 Executive Outlook**
+
+**1. Market & Institutional Infrastructure Dynamics**
+*   **Institutional Shift to Regulated Infrastructure:** Despite a risk-off correction that saw major digital assets drop 16% to 22%, institutional capital rotated heavily into regulated infrastructure. The Tokenized Real-World Asset (RWA) market hit $23.35 billion in Total Value Locked (TVL), up 22.9% month-over-month.
+*   **Stablecoin Dominance & Money Market ETFs:** Stablecoin market capitalization reached $309 billion (13.3% market dominance). Highlighting this institutional demand, the ProShares GENIUS Money Market ETF generated a record $17 billion in first-day trading volume. 
+*   **European Tokenization Pilots:** BNP Paribas piloted a tokenized share class of a money market fund on the public Ethereum network via its "AssetFoundry" platform, utilizing a permissioned access model restricted to eligible participants.
+
+**2. Global Regulatory & Compliance Shifts**
+*   **U.S. Prudential Pivot (GENIUS Act):** The U.S. Office of the Comptroller of the Currency (OCC) released a comprehensive proposed framework to implement the GENIUS Act. The proposal creates a bank-like supervisory regime for "Permitted Payment Stablecoin Issuers" (PPSIs), mandating 1:1 reserve backing and proposing strict diversification rules, while prohibiting issuers from paying yield to token holders.
+*   **Regulatory Harmonization:** The U.S. SEC and CFTC announced an initiative to harmonize oversight of digital assets, signaling a shift away from regulation-by-enforcement. The SEC dismissed long-standing proceedings against entities like American CryptoFed and is exploring an "innovation exemption" for peer-to-peer trading.
+*   **Basel Standards Re-Evaluation:** Following pushback regarding the strict prudential capital standards for banks' crypto exposures—which would require full capital deductions for most public blockchain assets—the Basel Committee on Banking Supervision (BCBS) is fast-tracking a reassessment of its rules.
+
+**3. Web3 Security & Illicit Finance Vectors**
+*   **Exploit Volumetry vs. Complexity:** Nominal on-chain hack losses dropped to an 11-month low of $26.5 million. However, attack vectors are pivoting away from complex smart contract logic toward infrastructure and identity compromise. Step Finance lost $27.3 million due to an executive email compromise, and YieldBlox lost $10.97 million after an attacker manipulated a Stellar decentralized exchange price oracle.
+*   **Autonomous AI Agent Poisoning ("Identity Theft 2.0"):** Threat actors are successfully compromising the data inputs of AI agents. In a notable incident, a Solana-based autonomous agent named "Lobstar Wilde" suffered a memory crash and erroneously sent $450,000 worth of tokens to an unknown individual after misinterpreting a social media prompt. 
+*   **Physical Coercion ("Wrench Attacks"):** Violent physical extortions targeting crypto holders increased 75% globally year-over-year. Europe now accounts for 40% of global incidents, with France recording the highest number of attacks worldwide.
+*   **Historic Illicit Finance Disruption:** The U.S. DOJ filed a civil forfeiture complaint for $225.3 million linked to transnational "pig butchering" networks, marking the Secret Service's largest crypto seizure ever. Additionally, OFAC designated 53 crypto addresses linked to North Korea's Cheil Credit Bank for sanctions evasion.
