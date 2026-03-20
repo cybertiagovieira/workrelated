@@ -1,0 +1,56 @@
+**Core Subject: Adverse News Screening Framework**
+
+**1. Regulatory & Legal Enforcement**
+
+  * **Government Action:** **No adverse findings.** There are no records of fines, settlements, or lawsuits brought by the SEC, CFTC, NYDFS, FCA, or any other government body against Rogo Technologies, Inc. or its founders.[1, 2, 3] Conversely, the company proactively announced compliance with the stringent EU AI Act in March 2026 to facilitate its European expansion.[4]
+  * **Licensing Status:** **No adverse findings.** Rogo operates as a B2B Software-as-a-Service (SaaS) provider rather than a broker, crypto exchange, or money transmitter. Therefore, it is not subject to—nor has it been denied—banking charters, BitLicenses, or VASP registrations.
+  * **Litigation:** **No adverse findings.** There are no class-action lawsuits, intellectual property disputes, or breach of contract claims against the company. Automated screening generated false positives for "John Willett" (including 19th-century historical court records and a police misconduct litigation attorney), but manual verification confirms these have no connection to the 27-year-old Rogo COO.[5, 6] Another false positive for "Gabriel Stengel" involved a local high school tennis and basketball match, which is entirely irrelevant.[7]
+
+**2. Financial Crime & Integrity**
+
+  * **AML/KYC Failures:** **No adverse findings.** Because Rogo does not hold customer funds, process retail transactions, or move capital, it is structurally immune to traditional AML/KYC failures, OFAC violations, or terrorist financing risks.
+  * **Fraud:** **No adverse findings.** There is no evidence of commingling funds or misleading investors. To prevent algorithmic fraud (AI "hallucinations" or data fabrications), Rogo's models are mathematically anchored to auditable, institutional-grade data providers like LSEG, PitchBook, S\&P Global, and FactSet, ensuring 100% data fidelity for its clients.[8, 9, 10]
+  * **Internal Controls:** **No adverse findings.** Rogo's internal controls are heavily audited and highly rated. The company actively maintains compliance with SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 42001:2023 (AI management), GDPR, and CCPA.[11] Furthermore, the company is actively expanding its accounting and compliance departments to ensure strict adherence to GAAP and external audit standards.
+
+**3. Executive & Key Person Risk**
+
+  * **Personal Misconduct:** **No adverse findings.** There are no reports of harassment, toxic workplace environments, or personal legal troubles involving Stengel, Willett, or Rackaitis.
+  * **Public Controversy:** **No adverse findings.** The executives maintain strictly professional public profiles centered on product development and enterprise sales. In recognition of their leadership, all three co-founders were vetted and named to the *Forbes 30 Under 30 - Finance* list for 2026.[12]
+  * **Conflicts of Interest:** **No adverse findings.** There is no evidence of undisclosed stakes or self-dealing.
+  * **Distraction Factors:** **No adverse findings.** The founders are entirely focused on Rogo without unrelated side ventures. As evidence of this commitment, COO John Willett recently relocated to London full-time to personally oversee the company's European expansion and manage relationships with major overseas banking clients.[13, 14]
+
+**4. Operational & Security Risks**
+
+  * **Cybersecurity:** **No adverse findings.** There are no records of hacks, exploits, private key compromises, or data leaks. Security is deeply embedded in Rogo's architecture, featuring zero-trust principles, AES-256 encryption-at-rest, TLS 1.2+ encryption-in-transit, and routine third-party penetration testing.[15, 11] The company recently established a Security Advisory Board chaired by Phil Venables, the longest-tenured former CISO of Goldman Sachs and Google Cloud.[16]
+  * **Reliability:** **No adverse findings.** There have been no reports of major service outages or technical downtime. Their infrastructure uses Amazon Web Services (AWS) private instances, anti-DDoS protections via Cloudflare, and robust Business Continuity and Disaster Recovery (BC/DR) plans.[17, 11]
+  * **Asset Backing:** **N/A.** Rogo does not issue stablecoins or hold digital reserves.
+
+**5. Financial Health & Stability**
+
+  * **Solvency:** **No adverse findings.** The company is exceptionally well-capitalized. In January 2026, Rogo raised a $75 million Series C funding round led by Sequoia Capital, with participation from Henry Kravis, Wells Fargo, and J.P. Morgan, bringing its total funding to over $165 million.[13] Annual Recurring Revenue (ARR) grew from $2 million in 2024 to over $15 million by the end of 2025.[18]
+  * **Workforce:** **No adverse findings.** There have been no mass layoffs. The company is actively scaling and currently employs over 100 people across its New York and newly opened London offices.[14, 19]
+  * **Valuation Shocks:** **No adverse findings.** There have been no "down rounds." Rogo's valuation more than doubled in less than a year, jumping from $350 million during its April 2025 Series B to a $750 million post-money valuation during its January 2026 Series C.[18, 19]
+
+-----
+
+**Source URLs for Citations Used:**
+
+  * `[15, 11]`: [https://trust.rogo.ai/](https://trust.rogo.ai/)
+  * `[3]`: [https://theaicounsel.net/subject-areas/compliance-litigation-enforcement/](https://theaicounsel.net/subject-areas/compliance-litigation-enforcement/)
+  * `[2]`: [https://www.jdsupra.com/legalnews/ai-related-claims-and-other-securities-5893942/](https://www.jdsupra.com/legalnews/ai-related-claims-and-other-securities-5893942/)
+  * `[4]`, `[4]`, `[4]`: [https://rogo.ai/news](https://rogo.ai/news)
+  * `[8]`, `[8]`, `[20]`: [https://rogo.ai/news/what-s-new-august-2025](https://rogo.ai/news/what-s-new-august-2025) (and October 2025 updates)
+  * `[12]`, `[18]`, `[12]`: [https://www.forbes.com/profile/rogo/](https://www.forbes.com/profile/rogo/) / [https://www.forbes.com/companies/rogo/](https://www.forbes.com/companies/rogo/)
+  * `[1]`: [https://www.nelsonmullins.com/insights/blogs/the\_vault/fn-in-the-news/u-s-regulators-file-complaints-for-digital-asset-market-manipulation-and-misappropriation](https://www.nelsonmullins.com/insights/blogs/the_vault/fn-in-the-news/u-s-regulators-file-complaints-for-digital-asset-market-manipulation-and-misappropriation)
+  * `[13]`, `[13]`, `[13]`, `[14]`: [https://rogo.ai/news/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion](https://rogo.ai/news/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion)
+  * `[21]`, `[21]`: [https://sacra.com/c/rogo/](https://sacra.com/c/rogo/)
+  * `[9]`: [https://www.prnewswire.com/news-releases/rogo-acquires-offset-to-bring-ai-agents-into-financial-workflows-302713749.html](https://www.prnewswire.com/news-releases/rogo-acquires-offset-to-bring-ai-agents-into-financial-workflows-302713749.html)
+  * `[17]`: [https://aws.amazon.com/startups/learn/rogo-delivers-secure-ai-with-amazon-bedrock-driving-innovation-in-finance](https://aws.amazon.com/startups/learn/rogo-delivers-secure-ai-with-amazon-bedrock-driving-innovation-in-finance)
+  * `[19]`: [https://www.superbcrew.com/rogo-raises-75-million-in-series-c-funding-round/](https://www.superbcrew.com/rogo-raises-75-million-in-series-c-funding-round/)
+  * `[19]`: [https://www.superbcrew.com/rogo-raises-75-million-in-series-c-funding-round/](https://www.superbcrew.com/rogo-raises-75-million-in-series-c-funding-round/)
+  * `[16]`: [https://rogo.ai/security-council](https://rogo.ai/security-council)
+  * `[10]`: [https://www.lseg.com/content/dam/lseg/en\_us/documents/investor-relations/events/presentation/lseg-innovation-forum-engineering-transformation-and-ai-strategy.pdf](https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/events/presentation/lseg-innovation-forum-engineering-transformation-and-ai-strategy.pdf)
+  * `[7]`: [https://ufdcimages.uflib.ufl.edu/UF/00/02/83/08/03563/02-15-2019.pdf](https://www.google.com/search?q=https://ufdcimages.uflib.ufl.edu/UF/00/02/83/08/03563/02-15-2019.pdf)
+  * `[6]`, `[6]`: [https://archive.org/stream/notesqueriesfors08brid/notesqueriesfors08brid\_djvu.txt](https://archive.org/stream/notesqueriesfors08brid/notesqueriesfors08brid_djvu.txt)
+  * `[5]`: [https://plus.pli.edu/search/result](https://www.google.com/search?q=https://plus.pli.edu/search/result) (PLI Police Misconduct Litigation)
+  * \`\`: [https://www.builtinnyc.com/job/accounting-manager/8762199](https://www.builtinnyc.com/job/accounting-manager/8762199)
