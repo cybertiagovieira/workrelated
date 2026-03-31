@@ -1,0 +1,83 @@
+**The Extortion Economy & Ransomware Tactics**
+*   **CYFIRMA (Tracking Ransomware: Jan 2026):** `https://www.cyfirma.com/research/tracking-ransomware-jan-2026/`
+*   **Chainalysis (Total Ransomware Payments Stagnate for Second Consecutive Year):** `https://www.chainalysis.com/blog/crypto-ransomware-2026/`
+*   **BlackFog (The State Of Ransomware 2026):** `https://www.blackfog.com/the-state-of-ransomware-2026/`
+*   **Arete (Ransomware Trends & Data Insights: January 2026):** `https://areteir.com/resources/ransomware-trends-data-insights-january-2026`
+*   **Cyble (January 2026 Threat Landscape: Ransomware Surge):** `https://cyble.com/resources/research-reports/january-2026-threat-landscape-ransomware-surge/`
+*   **ThreatMon (Ransomware 2026 Report January):** `https://threatmon.io/ransomware-2026-report-january/`
+*   **Recorded Future (New ransomware tactics to watch out for in 2026):** `https://www.recordedfuture.com/blog/ransomware-tactics-2026`
+*   **Programs.com (The Latest Small Business Ransomware Statistics):** `https://programs.com/resources/small-business-ransomware-stats/`
+*   **Guardz (31 Ransomware Statistics MSPs Cannot Ignore in 2026):** `https://guardz.com/blog/31-ransomware-statistics-msps-cannot-ignore-in-2026/`
+*   **GuidePoint Security (Ransomware Trends by Industry):** `https://www.guidepointsecurity.com/blog/ransomware-trends-by-industry-2026-ransomware-cyber-threat-report/`
+
+**Systemic Supply Chain, "Fourth-Party" Fragility & Identity Breaches**
+*   **ITPro (FICOBA Breach - A single compromised account gave hackers access to 1.2 million French banking records):** `https://www.itpro.com/security/data-breaches/a-single-compromised-account-gave-hackers-access-to-1-2-million-french-banking-records`
+*   **Help Net Security (Data on 1.2 million French bank accounts accessed in registry breach):** `https://www.helpnetsecurity.com/2026/02/19/ficoba-data-breach-bank-accounts/`
+*   **SC World (Hacker accesses data from 1.2 million French bank accounts using stolen credentials):** `https://www.scworld.com/brief/hacker-accesses-1-2-million-french-bank-accounts-using-stolen-credentials`
+*   **Security Boulevard (1.2 Million Bank Accounts Exposed in Financial Systems Breach):** `https://securityboulevard.com/2026/03/1-2-million-bank-accounts-exposed-in-financial-systems-breach/`
+*   **DeepStrike (Dark Web Data Pricing 2025: Real Costs of Stolen Data & Services):** `https://deepstrike.io/blog/dark-web-data-pricing-2025`
+*   **Breachsense (Top 7 Dark Web Markets in 2026):** `https://www.breachsense.com/blog/dark-web-markets/`
+*   **FireCompass (Coinbase Insider Breach December 2024):** `https://firecompass.com/coinbase-insider-breach-december-2024/`
+
+**Autonomous Threats, Shadow AI & Agentic AI Vulnerabilities**
+*   **Mem0 (AI Memory Security: Best Practices and Implementation):** `https://mem0.ai/blog/ai-memory-security-best-practices`
+*   **Christian Schneider (Memory poisoning in AI agents: exploits that wait):** `https://christian-schneider.net/blog/persistent-memory-poisoning-in-ai-agents/`
+*   **Lakera (Agentic AI Threats: Memory Poisoning & Long-Horizon Goal Hijacks):** `https://www.lakera.ai/blog/agentic-ai-threats-p1`
+*   **Stellar Cyber (Top Agentic AI Security Threats in Late 2026):** `https://stellarcyber.ai/learn/agentic-ai-securiry-threats/`
+*   **ResearchGate (AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks):** `https://www.researchgate.net/publication/400970840_AgentLAB_Benchmarking_LLM_Agents_against_Long-Horizon_Attacks`
+*   **DIGIT (Report: Shadow AI Tied to $19.5M Insider Risk Explosion):** `https://www.digit.fyi/shadow-ai-insider-risk/`
+*   **BlackFog (Shadow AI Threat Grows Inside Enterprises):** `https://www.blackfog.com/blackfog-research-shadow-ai-threat-grows/`
+*   **Vectra AI (Shadow AI explained: risks, costs, and enterprise governance):** `https://www.vectra.ai/topics/shadow-ai`
+*   **The HIPAA Journal (Soaring Insider Breach Costs Driven by Shadow AI Use):** `https://www.hipaajournal.com/insider-breach-costs-increase-shadow-ai-use/`
+
+**Critical Infrastructure, Edge Devices & N-Day Exploitation**
+*   **Trend Micro (CVE-2025-55182: React2Shell Analysis, Proof-of-Concept Chaos, and In-the-Wild Exploitation):** `https://www.trendmicro.com/en_us/research/25/l/CVE-2025-55182-analysis-poc-itw.html`
+*   **Microsoft Security Blog (Defending against the CVE-2025-55182 (React2Shell) vulnerability):** `https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/`
+*   **Google Cloud Blog (Multiple Threat Actors Exploit React2Shell):** `https://cloud.google.com/blog/topics/threat-intelligence/threat-actors-exploit-react2shell-cve-2025-55182`
+*   **FINRA (Cybersecurity Alert – React2Shell):** `https://www.finra.org/guidance/guidance/cybersecurity-advisory-react2shell`
+*   **The Hacker News (Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023):** `https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html`
+*   **Rapid7 (Critical Cisco Catalyst Vulnerability Exploited in the wild):** `https://www.rapid7.com/blog/post/etr-critical-cisco-catalyst-vulnerability-exploited-in-the-wild-cve-2026-20127/`
+*   **CISecurity (Multiple Vulnerabilities in Cisco Catalyst SD-WAN Products):** `https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-catalyst-sd-wan-products-could-allow-for-authentication-bypass_2026-016`
+*   **Arctic Wolf (CVE-2026-20127: Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability):** `https://arcticwolf.com/resources/blog-uk/cve-2026-20127-cisco-catalyst-sd-wan-controller-authentication-bypass-vulnerability/`
+*   **CyCognito (Emerging Threat: Cisco Catalyst SD-WAN Authentication Bypass):** `https://www.cycognito.com/blog/emerging-threat-cisco-catalyst-sd-wan-authentication-bypass-cve-2026-20127/`
+*   **BankInfoSecurity (Hacker Free-For-All Over Cisco SD-WAN Flaw):** `https://www.bankinfosecurity.com/hacker-free-for-all-over-cisco-sd-wan-flaw-a-30946`
+*   **NVD (CVE-2026-20127):** `https://nvd.nist.gov/vuln/detail/CVE-2026-20127`
+
+**Geopolitical Maneuvers & APT Campaigns**
+*   **Vectr-Cast (14-Day Cyber Threat Forecast):** `https://substack.com/home/post/p-190399640?source=queue`
+*   **The Hacker News (Iran-Linked MuddyWater Hackers Target U.S. Networks With New Dindoor Backdoor):** `https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html`
+*   **Infosecurity Magazine (Iran's MuddyWater Hackers Hit US Firms with New 'Dindoor' Backdoor):** `https://www.infosecurity-magazine.com/news/iran-muddywater-hackers-us-firms/`
+*   **SOCRadar (Iranian APT MuddyWater Uses Dindoor Malware to Target U.S. Networks):** `https://socradar.io/blog/iran-muddywater-dindoor-malware-us-networks/`
+*   **Help Net Security (Iran-linked APT targets US critical sectors with new backdoors):** `https://www.helpnetsecurity.com/2026/03/06/seedworm-muddywater-backdoors-victims/`
+*   **Security Affairs (Iran-linked MuddyWater deploys Dindoor malware against U.S. organizations):** `https://securityaffairs.com/189060/apt/iran-linked-muddywater-deploys-dindoor-malware-against-u-s-organizations.html`
+*   **The Hacker News (Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations):** `https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html`
+*   **IISS (Volt Typhoon's long shadow):** `https://www.iiss.org/online-analysis/cyber-power-matrix/2026/01/volt-typhoons-long-shadow/`
+*   **Medium (Claude AI Military Use, Pentagon Standoff, and the 2026 AI Warfare Crisis Explained):** `https://tasmayshah12.medium.com/the-pentagon-tried-to-unplug-claude-then-it-used-claude-to-bomb-iran-c1d269db38a1`
+
+**Regulatory Convergence & Compliance (DORA & SEC Reg S-P)**
+*   **HYPR (Cybersecurity Regulations for Financial Services for 2026 and Beyond):** `https://www.hypr.com/blog/top-financial-services-cybersecurity-regulations`
+*   **fscom (Preparing for the 2026 DORA reporting deadline: Lessons from 2025 every firm should know):** `https://fscom.co/blog/preparing-for-the-2026-dora-reporting-deadline-lessons-from-2025-every-firm-should-know/`
+*   **Thomas Murray (The DORA Register of Information: 2026 Outlook and Guidance):** `https://thomasmurray.com/compliance-digest/dora-register-information-2026-outlook-and-guidance`
+*   **Thomas Murray (What's Next for DORA in 2026?):** `https://thomasmurray.com/compliance-digest/whats-next-dora-2026`
+*   **De Nederlandsche Bank (DORA: Reporting DORA registers of information in March 2026):** `https://www.dnb.nl/en/sector-news/supervision-2026/q1/dora-reporting-dora-registers-of-information-in-march-2026/`
+*   **Spike Reply (DORA: what it is and what the Register of Information really means):** `https://www.reply.com/spike-reply/en/dora-what-it-is-and-what-the-register-of-information-really-means`
+*   **Private Funds CFO (The SEC's amended Reg S-P requires rethinking incident response plans):** `https://www.privatefundscfo.com/the-secs-amended-reg-s-p-requires-rethinking-incident-response-plans/`
+*   **National Law Review (SEC Approves Amendments to Regulation S-P):** `https://natlawreview.com/article/new-sec-cybersecurity-rules-begin-take-effect`
+*   **Jenner & Block (The SEC Expands Its Cybersecurity Oversight by Adopting Regulation S-P Amendments):** `https://www.jenner.com/en/news-insights/client-alerts/the-sec-expands-its-cybersecurity-oversight-by-adopting-regulation-s-p-amendments`
+*   **K&L Gates (SEC Examination Priorities Show Continued Focus on Risks):** `https://www.klgates.com/SEC-Examination-Priorities-Show-Continued-Focus-on-Risks-in-Changed-Enforcement-Environment-12-1-2025`
+*   **SteelEye (Regulatory Priorities for 2026: What the SEC, FINRA, and CFTC Are Signaling):** `https://www.steel-eye.com/news/north-american-regulatory-priorities-for-2026`
+
+**Overall Threat Landscape & Financial Sector Macro-Analysis**
+*   **CYJAX (Cyber Threat Intelligence Trends Financial Institutions Can't Ignore in 2026):** `https://www.cyjax.com/resources/blog/cyber-threat-intelligence-trends-financial-institutions-cant-ignore-in-2026`
+*   **Darktrace (The State of Cybersecurity in the Finance Sector: Six Trends to Watch):** `https://www.darktrace.com/blog/the-state-of-cybersecurity-in-the-finance-sector-six-trends-to-watch`
+*   **CrowdStrike (2026 Global Threat Report):** `https://www.crowdstrike.com/en-us/global-threat-report/`
+*   **Recorded Future (January 2026 CVE Landscape):** `https://www.recordedfuture.com/blog/january-2026-cve-landscape`
+*   **Programs.com (Top Cybersecurity Risks and Solutions in the Financial Sector 2026):** `https://programs.com/resources/cybersecurity-finance-industry/`
+*   **Fortinet (Cybersecurity and Banking Regulations in 2026 and Beyond):** `https://www.fortinet.com/content/dam/fortinet/assets/reports/report-fortinet-banking-regulations.pdf`
+*   **SharkStriker (Top 10 cybersecurity risks and threats to the banking sector in 2026):** `https://sharkstriker.com/guide/top-10-cybersecurity-risks-and-threats-for-the-banking-sector-in-2026/`
+*   **Jack Henry (Top Cybersecurity Trends for 2026 Every Financial Leader Must Know):** `https://www.jackhenry.com/fintalk/top-cybersecurity-trends-for-2026-every-financial-leader-must-know`
+*   **TekClarion (Get the 2026 Guide to Banking Cyber Threats):** `https://www.tekclarion.com/cyber-security/get-the-2026-guide-to-banking-cyber-threat/`
+*   **World Economic Forum (Global Cybersecurity Outlook 2026):** `https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf`
+*   **FS-ISAC (Heightened Cyber Threats are Testing Operational Resilience):** `https://www.fsisac.com/newsroom/heightened-cyber-threats-are-testing-the-operational-resilience-of-the-financial-sector`
+*   **FS-ISAC (New Strategy for Cybersecurity & Resilience):** `https://www.fsisac.com/newsroom/fsisac-reveals-new-strategy-for-cybersecurity-resilience-of-the-global-financial-system`
+*   **CM Alliance (February 2026: Recent Cyber Attacks, Data Breaches, Ransomware Attacks):** `https://www.cm-alliance.com/cybersecurity-blog/february-2026-recent-cyber-attacks-data-breaches-ransomware-attacks`
