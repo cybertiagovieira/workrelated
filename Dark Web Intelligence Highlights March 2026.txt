@@ -1,0 +1,11 @@
+Dark Web Intelligence Highlights: March 2026
+New Tor Marketplace Launch (March 22, 2026): A new dark web platform named ALP-001 officially launched, uniquely combining initial access broker (IAB) sales with full-scale data extortion capabilities
+.
+LeakBase Administrator Arrest (March 25, 2026): Russian authorities arrested the alleged owner of the LeakBase cybercrime forum, successfully disrupting a major underground hub used globally for trading stolen credentials and offensive hacking tools
+.
+Record Leak Site Activity (March 2026): Activity on ransomware dark web leak sites reached a year-to-date high, with 65 distinct threat groups actively publishing data belonging to 808 extorted victim organizations over the course of the month
+.
+Debut of New Syndicate Leak Sites (March 2026): Extortion groups CoinbaseCartel and Bashe officially established their presence on the dark web this month, immediately demonstrating high operational maturity by publishing 22 and 17 victims, respectively, to their newly active leak sites
+.
+Extreme IAB Price Hyper-Inflation (March 2026): Monitoring of prominent cybercrime forums, including Exploit and the newly established ALP-001, revealed that the base asking price for illicit corporate network access hyper-inflated by 4,055% by the end of the month, reflecting a decisive shift among brokers toward premium, high-value target sales
+.

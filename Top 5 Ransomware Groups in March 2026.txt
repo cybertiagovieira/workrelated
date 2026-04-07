@@ -1,0 +1,17 @@
+**Breachsense & Strategic Intelligence Assessment Data (March 2026)**
+Based on data from Breachsense and confirmed by a Strategic Intelligence Assessment report, the top 5 most active ransomware groups in March 2026 by absolute number of claimed victims were:
+1. **Qilin:** 131 victims
+2. **Akira:** 84 victims
+3. **TheGentlemen:** 64 victims
+4. **DragonForce:** 54 victims
+5. **LockBit:** 51 victims
+
+**Comparitech Data (March 2026)**
+Comparitech tracked a slightly different dataset that includes both confirmed and unconfirmed attacks. While the top four groups remain the same, their incident numbers vary slightly, and INC Ransom takes the fifth spot instead of LockBit:
+1. **Qilin:** 140 attacks
+2. **Akira:** 80 attacks
+3. **The Gentlemen:** 68 attacks
+4. **DragonForce:** 53 attacks
+5. **INC:** 48 attacks
+
+*(Note: Minor discrepancies in exact attack numbers and the ranking of the fifth group are due to varying independent tracking methodologies and whether unconfirmed public claims were included by the different cybersecurity research firms).*

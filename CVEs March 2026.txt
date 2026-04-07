@@ -1,0 +1,4 @@
+*   **CVE-2026-20963**: Actively exploited zero-day allowing unauthenticated arbitrary code execution; Target Tech: Microsoft SharePoint Server; Vulnerability Type: Deserialization of Untrusted Data;
+*   **CVE-2026-20122**: Actively exploited flaw enabling unauthorized access, file overwrite, and data exposure; Target Tech: Cisco Catalyst SD-WAN Manager; Vulnerability Type: Unauthorized Access;
+*   **CVE-2026-1603**: Actively exploited bug allowing attackers to bypass authentication and steal credentials; Target Tech: Ivanti Endpoint Manager; Vulnerability Type: Authentication Bypass;
+*   **CVE-2026-33017**: Actively exploited vulnerability allowing AI workflow hijacking and credential theft; Target Tech: Langflow; Vulnerability Type: Remote Code Execution;

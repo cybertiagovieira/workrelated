@@ -1,0 +1,45 @@
+**Breachsense Ransomware Report (March 2026)**
+Breachsense tracked a total of 808 claimed ransomware victims in March 2026. Their intelligence identifies the top 10 most targeted industries for the month in absolute numbers as follows:
+1. **Manufacturing:** 76 victims
+2. **Construction:** 53 victims
+3. **Finance:** 48 victims
+4. **Healthcare:** 47 victims
+5. **Legal:** 43 victims
+6. **Technology:** 36 victims
+7. **IT:** 35 victims
+8. **Government:** 31 victims
+9. **Consumer Goods:** 28 victims
+10. **Education:** 26 victims
+
+**Comparitech Ransomware Roundup (March 2026)**
+Comparitech tracked 780 total ransomware attacks (both confirmed and unconfirmed) throughout March 2026. Their industry breakdown utilizes different categorizations but confirms **Manufacturing** as the most heavily targeted sector. Their absolute incident numbers for the month are:
+1. **Manufacturing:** 202 attacks
+2. **Service:** 128 attacks
+3. **Healthcare:** 74 attacks in total (comprising 39 attacks on direct care providers, and 35 attacks on companies offering non-direct care such as pharmaceutical manufacturing or billing)
+4. **Retail:** 70 attacks
+5. **Finance:** 50 attacks
+6. **Legal:** 50 attacks
+7. **Technology:** 38 attacks
+8. **Government:** 35 attacks
+9. **Construction:** 35 attacks
+10. **Food and Beverage:** 28 attacks
+11. **Utilities:** 22 attacks
+12. **Transportation:** 20 attacks
+13. **Education:** 18 attacks
+
+**Strategic Intelligence Assessment Synthesis (March 2026)**
+A specialized strategic intelligence report aggregated metrics across the industry to highlight the most critical sectoral risks specifically for March 2026. This synthesis highlights the following absolute victim counts:
+*   **Manufacturing:** 202 victims
+*   **Construction:** 53 victims
+*   **Finance:** 48 victims
+*   **Healthcare:** 47 victims
+*   **Government:** 31 victims
+*   **Education:** 26 victims
+*   **Utilities:** 22 victims
+
+**Key Insights & Anomalies for March 2026:**
+*   **Manufacturing** remained the definitive top target globally, seeing a massive surge of 42 additional attacks in the Comparitech dataset alone compared to the previous month. 
+*   **Utilities** experienced an exponential 630% spike in attacks (rising from 3 in February to 22 in March). This is largely driven by state-aligned or hacktivist threat actors attempting to inflict maximum societal disruption and impact critical infrastructure.
+*   **Healthcare** targeting showed some signs of cooling off from its previous highs, dropping from 93 victims in February to 47 in March according to Breachsense. Despite this drop, the industry remains highly exposed and regularly targeted. 
+
+*(Note: Discrepancies in the exact absolute numbers between the lists reflect the independent tracking methodologies, varying definitions of industry sectors, and differences between confirmed vs. unconfirmed public claims monitored by the different cybersecurity research firms).*
