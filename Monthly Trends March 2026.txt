@@ -1,0 +1,29 @@
+**Phishing**
+Phishing campaigns surged this month, with hackers increasingly abusing legitimate **Meta Business Manager** and **SaaS notifications** to deliver malicious payloads. In Europe, law enforcement thwarted significant attacks, recovering **€87,000** stolen from a Spanish company via smishing and preventing a **€20,000** phone scam in Italy. Additionally, new **AI-written phishing emails** are successfully bypassing defenses, reportedly fooling **7 in 10** corporate workers.
+
+**Ransomware**
+Ransomware heavily impacted the healthcare sector, notably when Dutch software vendor **ChipSoft** was breached, forcing multiple hospitals to take patient portals offline. Threat actors like **Storm-1175** accelerated their attack cycles, deploying **Medusa ransomware** within just **24 hours** of exploiting new zero-day vulnerabilities. Meanwhile, German police successfully identified two key operators behind the notorious **REvil** and **GandCrab** ransomware syndicates.
+
+**Banking Trojans**
+Latin American financial institutions faced aggressive malware campaigns, with the Rust-based **Venon trojan** targeting **33 Brazilian banks** using credential-stealing overlays. The **PixRevolution** Android malware emerged as a critical threat, capable of hijacking Brazil's **PIX instant payments** in real-time without user detection. Furthermore, the highly evasive **Casbaneiro** and **Horabot** trojans expanded their reach across Europe using dynamic PDF lures.
+
+**Carding**
+Cybercriminals deployed highly evasive carding techniques this month, including hiding **credit card stealers** within **pixel-large SVG files** on compromised e-commerce sites. Massive waves of attacks successfully hijacked online shops to inject malicious skimming code directly into checkout pages. Additionally, local communities reported significant financial losses after hackers targeted and drained vulnerable **SNAP/EBT benefit accounts** across multiple states.
+
+**Denial of Service**
+Denial of Service attacks reached unprecedented scales, highlighted by a disruptive DDoS intrusion against Russian state-run telco **Rostelecom**, which caused severe internet banking outages. The newly discovered **Masjesu botnet** emerged as a powerful commercial **DDoS-for-hire service**, specifically targeting and hijacking global **IoT devices and routers**. Furthermore, a critical **Android zero-interaction vulnerability** was identified that enables permanent DoS conditions.
+
+**BEC Attacks**
+Business Email Compromise (BEC) fraud is being supercharged by platforms like **EvilTokens**, an **AI-augmented Phishing-as-a-Service** that automates attacks using stolen **Microsoft 365 tokens**. Law enforcement cracked down on global syndicates, resulting in the sentencing of Nigerian and Kenyan nationals for **multi-million dollar** schemes. Meanwhile, Polish police arrested **13 individuals**, bringing their total BEC investigation charges to **101**.
+
+**Account Takeover**
+Critical infrastructure and developer tools faced severe account takeover threats, most notably when a hijacked **Axios NPM account** with **50 million downloads** deployed a cross-platform RAT. Attackers heavily exploited **OAuth flows** through AI-enabled device code phishing campaigns to bypass Microsoft authentication. Additionally, maximum-severity vulnerabilities in **Ubiquiti UniFi** and **LangSmith** exposed countless enterprise environments to complete administrative takeovers.
+
+**Data Breach**
+Data breaches exposed massive volumes of sensitive information, led by an alleged record-breaking **10-petabyte data theft** from China’s **Tianjin Supercomputer Center**. In the public sector, the **LAPD** suffered a significant breach leaking sensitive police records via the LA City Attorney's office. Meanwhile, corporate penalties continued, with **Christie's** facing a **$194,000 fine** for a major breach affecting South Korean customers.
+
+**Third Party Risk**
+Supply chain vulnerabilities caused significant operational disruptions, exemplified when a federal appeals court allowed the Pentagon to designate AI firm **Anthropic** as a **supply chain risk**. Developer ecosystems also suffered as the creator of **WireGuard VPN** was temporarily unable to release security updates due to a critical **Microsoft account lockout**. Additionally, critical data leakage vulnerabilities were patched in pervasive libraries like **OpenSSL**.
+
+**Attacks on Digital Assets**
+Decentralized finance suffered massive losses after North Korean hackers, who had infiltrated DeFi teams for years, executed a **$285 million** exploit against the Solana-based **Drift Protocol**. The physical crypto infrastructure was also targeted, with ATM giant **Bitcoin Depot** confirming the theft of **50.9 BTC**, valued at **$3.6 million**. Furthermore, attackers hijacked over **1,000 exposed ComfyUI servers** to run illicit **cryptomining botnets**.
