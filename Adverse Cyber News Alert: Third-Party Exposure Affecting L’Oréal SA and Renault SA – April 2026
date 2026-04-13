@@ -1,0 +1,7 @@
+Subject: Adverse Cyber News Alert: Third-Party Exposure Affecting L’Oréal SA and Renault SA – April 2026
+
+The following executive summary assesses the digital risk to bank clients identified during routine portfolio monitoring.
+
+*   **Incident Summary:** An unprotected Elasticsearch cluster at French email provider Alinto exposed 40 million SMTP records on April 9, 2026, leaking email addresses and traffic metadata for bank clients **L’Oréal SA** and **Renault SA**. 
+*   **Operational Risk:** Exfiltrated metadata enables mapping of internal communication patterns, significantly escalating the risk of targeted spear-phishing and Business Email Compromise (BEC) campaigns against client executive and engineering staff. 
+*   **Full URL:** [https://www.techradar.com/pro/security/french-email-provider-accidentally-leaked-40-million-records-loreal-renault-french-government-data-exposed](https://www.techradar.com/pro/security/french-email-provider-accidentally-leaked-40-million-records-loreal-renault-french-government-data-exposed)
