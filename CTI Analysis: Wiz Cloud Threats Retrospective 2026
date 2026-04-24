@@ -1,0 +1,13 @@
+Subject: CTI Analysis: Wiz Cloud Threats Retrospective 2026
+
+From the analysis of the Wiz Cloud Threats Retrospective 2026 document, the following five CTI insights characterize the current cloud threat landscape:
+
+* [cite_start]**Proven Vectors & Rapid Weaponization:** Eighty percent of documented intrusions exploit familiar vectors [cite: 60, 61][cite_start]; vulnerabilities like React2Shell and MongoBleed are operationalized within hours to deploy cryptominers and backdoors[cite: 313, 314, 318, 319, 417].
+* [cite_start]**Systemic Supply Chain Impact:** Threat actors abuse shared CI/CD tooling, package registries, and integrated SaaS platforms to achieve ecosystem-wide compromise, bypassing the need to exploit individual environments [cite: 154, 155, 237-240, 331-335].
+* [cite_start]**AI-Accelerated Operations:** AI expansions widen the attack surface via new identities and data paths [cite: 345, 349-366][cite_start], while threat actors utilize AI to generate dynamic runtime payloads, as observed with the LameHug malware[cite: 406, 407].
+* [cite_start]**Campaign Velocity and Broad Attribution:** Exploitation of critical internet-facing vulnerabilities triggers immediate, widespread activity, with threat actors launching over 60 distinct campaigns ranging from basic automated scripts to state-backed operations[cite: 313, 316, 317, 320].
+* [cite_start]**Prioritization of Control Reviews:** Remediation must prioritize control reviews of externally reachable exposures tied to sensitive identities, coupled with continuous monitoring of control-plane activity to detect cloud-native escalation [cite: 422-427, 431-433].
+
+[cite_start]Cloud threat activity is currently defined by increased scale and systemic interconnectedness rather than novel techniques, requiring continuous visibility into exposure and identity relationships to disrupt escalation[cite: 443, 447].
+
+Document attached for further analysis.
