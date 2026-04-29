@@ -1,0 +1,109 @@
+Good morning, everyone, and thank you for joining this session. 
+
+[Make eye contact with the audience]
+
+Today, we are looking at a fundamental shift in how the European financial sector is being targeted. I am going to walk you through the convergence of two major data breaches from earlier this year, and exactly how they have armed criminal syndicates with the perfect tools to create synthetic identities.
+
+[Pause for a breath]
+
+
+
+**Slide 1: The Root Cause: The FICOBA & IDMerit Synthetic Identity Threat**
+
+Let's start by examining the root cause. In early 2026, the financial industry was rocked by two massive data exposures. First, we saw the breach of the French national bank account registry, known as the Fichier des Comptes Bancaires, or FICOBA.[1] This registry is managed by the French Directorate-General for Public Finance, or DGFiP.[1] 
+
+A threat actor compromised the login credentials of a legitimate civil servant.[1] I want to emphasize this point: they did not hack a firewall or exploit a software vulnerability.[2] They simply walked in through the front door using valid authentication.[2] This breach exposed 1.2 million accounts.[1] We are not just talking about leaked passwords; this exposure included International Bank Account Numbers, or IBANs, physical addresses, and permanent tax identification numbers.[1] 
+
+
+
+Right around the exact same time, the industry learned about the IDMerit data leak. IDMerit is an Artificial Intelligence, or AI, powered identity verification provider. They left a MongoDB database completely unprotected on the public internet.[3] There was no password required at all, meaning anyone with the web address could download the dataset.[3] 
+
+This leak exposed approximately one billion sensitive records globally.[3] But what makes this truly terrifying for the anti-fraud community is that the database contained Know Your Customer, or KYC, verification logs, Anti-Money Laundering, or AML, logs, and sensitive telecom metadata.[3] 
+
+[Pause for a breath]
+
+Think of this like a bank robber not just stealing the vault's blueprints, but stealing the exact algorithmic "answer key" that a bank's security systems use to approve an account. When you combine the pristine, government-issued tax identifiers from the French Fichier des Comptes Bancaires, or FICOBA, breach with the telecom metadata and Know Your Customer, or KYC, logs from the IDMerit leak, criminals possess the ultimate master key to bypass digital front doors.
+
+
+
+**Slide 2: The Attack Vector – Industrialized Synthetic Identities**
+
+So, how are threat actors weaponizing this data? They are building Synthetic Identities at an industrial scale. 
+
+[Pause for a breath]
+
+Fraudsters are taking "clean," real data points—like a real French tax identifier—and combining them with Artificial Intelligence, or AI, generated deepfake faces and cloned voices. The numbers are staggering. Impersonation fraud now accounts for over 85 percent of all online attacks.[4] And digitally presented media during onboarding is now 300 percent more likely to be Artificial Intelligence, or AI, generated or altered than it was just a few years ago.[4]
+
+You might be thinking, don't financial institutions have liveness checks? Don't we use Presentation Attack Detection, or PAD, to ensure the person is real? Yes, but attackers have evolved. 
+
+
+
+They no longer use basic presentation attacks, like holding up an iPad with a video to a webcam. Instead, they use Virtual Camera Injections, or VCI, and Application Programming Interface, or API, level injections.[5] 
+
+Here is a quick analogy. A presentation attack is like someone wearing a highly realistic silicone mask and walking into a physical branch. The teller might still spot that the mask looks fake. But a Virtual Camera Injection, or VCI, attack is like the criminal bypassing the branch entirely, splicing directly into the security camera's wiring, and broadcasting a flawless, Hollywood-quality computer-generated movie directly to the security guard's monitor.
+
+By using mobile device emulators or hooking directly into system functions, attackers intercept the video feed right at the operating system or Application Programming Interface, or API, level.[6] They inject a synthetic video stream directly into the onboarding pipeline.[6] To the banking system, the video looks completely genuine, bypassing the physical camera entirely.[5]
+
+
+
+**Slide 3: Operational Impact – Instant Fraud and Mule Networks**
+
+Once these synthetic identities are successfully inside a financial institution, what is the operational impact?
+
+[Pause for a breath]
+
+Criminals play the long game. They build up credit histories over months, secure loans, and then execute what we call "Bust-Out" fraud—maxing out all credit lines and vanishing. Because the person never really existed, collections departments have absolutely nobody to chase down.
+
+More critically, these fake accounts form the backbone of cross-border money mule networks. And this systemic threat has been supercharged by the European Union's Instant Payments Regulation, or IPR. This regulation mandates that all Single Euro Payments Area, or SEPA, transfers settle within exactly ten seconds, 24 hours a day, 365 days a year.[7] 
+
+[Make eye contact with the audience]
+
+While instant payments are fantastic for consumers, they have completely broken legacy Anti-Money Laundering, or AML, batch-processing systems. We essentially built a high-speed bullet train for money, but left the old, slow security checkpoints in place.
+
+The financial devastation is severe. According to the 2025 joint report by the European Banking Authority, or EBA, and the European Central Bank, or ECB, total payment fraud across the European Economic Area, or EEA, reached 4.2 billion euros in 2024.[7] That is a 17 percent increase in just one year.[7] Credit transfer fraud alone surged by 24 percent to reach 2.5 billion euros.[7] 
+
+Fraudsters are heavily utilizing Authorized Push Payment, or APP, scams, where the average fraudulent Single Euro Payments Area, or SEPA, instant transfer extracts about 1,400 euros.[8] Under current frameworks, consumers bear about 85 percent of these credit transfer fraud losses.[8] Financial institutions have to act immediately because the window to stop these illicit flows has been compressed from hours down to literally seconds.[7]
+
+
+
+**Slide 4: Immediate Countermeasures – Upgrading to Certified Capture**
+
+This brings us to our immediate countermeasures. Financial institutions must upgrade their defenses to a standard called Certified Capture.
+
+[Pause for a breath]
+
+In late 2024, the European Committee for Standardization published CEN/TS 18099.[9] This is a crucial new standard specifically designed for Injection Attack Detection, or IAD.[6] Previous standards only tested if you could spot a physical mask. This new CEN/TS 18099 standard actively tests if systems can detect Injection Attack Methods, or IAM, like tampering with software libraries, and Injection Attack Instruments, or IAI, like deepfakes delivered via the network.[6] 
+
+To meet this standard and stop Application Programming Interface, or API, level injections, the banking sector must shift its focus. We can no longer rely purely on algorithms trying to visually spot a deepfake. Artificial Intelligence, or AI, is simply getting too good. Instead, organizations must implement Certified Capture.
+
+
+
+Think of Certified Capture like a digital tamper-evident seal on a medicine bottle. At the exact microsecond a customer takes a selfie or scans an identity document, the software grabs environmental metadata. This includes deep hardware device fingerprints and precise Global Positioning System, or GPS, coordinates.[10] It immediately seals this data using cryptographic hashing and a qualified timestamp from an official Qualified Trust Service Provider, or QTSP.[10]
+
+If a hacker uses a virtual camera to inject a fake video, the metadata chain instantly shatters.[10] The cryptographic seal is either missing or broken.[10] The system doesn't even need to analyze the deepfake; it just automatically rejects the onboarding attempt because the provenance of the data is invalid.[10]
+
+Furthermore, this is a strict legal necessity. The European Union's Anti-Money Laundering Directive 6, or AMLD6, mandates that financial institutions maintain tamper-evident records of customer due diligence.[11] Certified Capture guarantees this chain of custody for the required ten-year retention period, ensuring evidence holds up in court and protects compliance officers from liability.[10]
+
+
+
+**Slide 5: Strategic Outlook – Continuous Assessment & eIDAS 2.0**
+
+Finally, let’s look at the strategic outlook.
+
+[Pause for a breath]
+
+Stopping fraud at the onboarding stage is only half the battle. Financial institutions must monitor accounts continuously. The industry is implementing advanced behavioral biometrics powered by hybrid neural networks.[12] Specifically, we are pairing Convolutional Neural Networks, or CNN, with Long Short-Term Memory, or LSTM, models.[12] 
+
+In simple terms, these Artificial Intelligence, or AI, models work silently in the background. The Convolutional Neural Network, or CNN, maps the spatial curvature of mouse drift and the pressure applied to a smartphone screen, while the Long Short-Term Memory, or LSTM, network models the temporal dependencies, like a user's exact typing cadence.[12] If a synthetic bot suddenly logs in, the system detects the anomaly instantly, even if the bot has the correct password.
+
+[Pause for a breath]
+
+The sector is also fighting back against broader criminal syndicates through decentralized intelligence sharing. Using one-way cryptographic hashing, banks can securely share the mathematical fingerprints of known fraudsters without ever sharing the actual raw personal data.[13] This allows institutions to spot vast, cross-border fraud rings while remaining completely compliant with the General Data Protection Regulation, or GDPR.[13]
+
+Ultimately, the landscape will fundamentally change with the updated Electronic Identification, Authentication and Trust Services directive, known as eIDAS 2.0. By December 2027, it will be legally mandatory for all Anti-Money Laundering, or AML, regulated entities to natively accept the European Digital Identity, or EUDI, Wallet.[14] 
+
+Instead of relying on third-party vendors utilizing Optical Character Recognition, or OCR, to scan easily forged plastic identity cards, citizens will possess cryptographically signed, sovereign credentials issued directly by their government. When a customer opens a bank account, they will simply use their European Digital Identity, or EUDI, Wallet to securely prove their identity via selective disclosure.[15] 
+
+Preparing infrastructure for this December 2027 mandate is the ultimate defense. It will effectively neutralize Artificial Intelligence, or AI, enabled synthetic identity fraud at the absolute source, moving the entire financial sector into a proactive, cryptographically secure future.
+
+Thank you for your time today. I am happy to open the floor to any questions.
