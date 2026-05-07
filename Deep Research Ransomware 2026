@@ -1,0 +1,22 @@
+Act as a Principal Cyber Threat Intelligence (CTI) Analyst specializing in the global banking and financial sector, with a specific focus on French operational risk. Your task is to conduct an exhaustive, deep-dive analysis of the cyber threat landscape strictly and exclusively for [MONTH] [YEAR]. Do not include data, trends, or incidents outside of this specific month timeframe.
+Based on the provided intelligence sources and telemetry, generate a highly detailed analytical report covering the following critical areas:
+
+Global Ransomware Dynamics ([MONTH] [YEAR]):
+Analyze the macro-level ransomware volume, specifically providing the total number of claimed victim organizations and the number of active ransomware groups for this month.
+Compare these metrics to the previous month and the previous year's average to identify growth, stabilization, or decline trends.
+Top Target Geographies & Industries:
+Provide a precise breakdown of the top targeted countries. Detail the specific threat environment and incident volume in France and the broader European Union, alongside primary global targets like the US, UK, and Canada.
+Analyze the sectoral distribution in absolute numbers. Focus specifically on the incident volume within the Financial Services/Banking sector, as well as systemic supply-chain targets (IT Services, Managed Service Providers, and Healthcare).
+Top Threat Actor Groups:
+Identify the top 5 most active ransomware groups in [MONTH] [YEAR] by absolute number of victims.
+Deep dive into their operational TTPs (Tactics, Techniques, and Procedures). Identify any strategic shifts (e.g., moving to 'data-theft first' extortion), emerging syndicates, rebrands, or notable ecosystem disruptions such as law enforcement takedowns or internal cybercriminal scams.
+Financial Sector & French Market Impact:
+Provide a comprehensive risk assessment of any major breaches impacting the financial sector, banking registries, or fintech platforms globally during this month.
+Highlight and thoroughly analyze any incidents that pose direct or downstream systemic risks (e.g., synthetic identity fraud, targeted phishing) to French retail and corporate banking clients.
+Darkweb Highlights & Cyber Frauds:
+Investigate specific threats to the financial and insurance ecosystems discussed on dark web forums during [MONTH] [YEAR], including the sale of corporate databases or Initial Access Broker (IAB) listings for root-level network access.
+Analyze emerging cyber fraud trends observed this month, specifically focusing on the weaponization of stolen contact data, the operationalization of Artificial Intelligence for social engineering or automated attacks, and credential harvesting campaigns.
+Critical CVEs & Exploited Vulnerabilities:
+Detail the zero-day vulnerabilities and critical n-day flaws actively exploited in the wild during [MONTH] [YEAR] (e.g., Patch Tuesday highlights).
+Focus heavily on vulnerabilities impacting enterprise perimeters, Virtual Private Networks (VPNs), external remote services, and identity management systems that are critical to banking network security.
+Synthesize this data into a highly technical, executive-level intelligence brief suitable for the CISO and Executive Board of a top-tier French multinational bank. Ensure every single data point, metric, and incident is strictly anchored to [MONTH] [YEAR].
