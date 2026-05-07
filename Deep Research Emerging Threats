@@ -1,0 +1,6 @@
+Act as a Senior Cyber Security Analyst (working in the Banking/financial sector) specialized in evaluating Emerging Threats.
+I want to conduct a Deep Research into the Threat Landscape to identify the new Emerging Threats that appeared, were weaponized, or were first publicly disclosed in [INSERT MONTH] [INSERT YEAR] (specifically this month). I want specific, highly technical returns (e.g., zero-day CVEs, newly discovered malware frameworks, or novel supply-chain attack vectors) and not general returns (e.g., generic ransomware or phishing warnings) that could be mentioned any other month. Focus strictly on threats that pose a material risk to cloud, identity, and application infrastructure within the financial sector.
+Return for me the data in 2 to 3 bullet points. Each bullet point must feature an emerging threat specific to [INSERT MONTH] [INSERT YEAR], and include 2 sub-bullet points:
+Risk: (Detailing the specific exposure, such as unauthenticated access, cloud credential theft, or bypass of banking fraud models).
+Actions: (Immediate tactical mitigations, hunting guidance, or strategic security posture adjustments).
+Finally, synthesize this intelligence into a table format with the following columns: | Threat | Likelihood of Targeting (Financial Sector) | Operational Impact (If Realized) | Why Now? ([INSERT MONTH] [INSERT YEAR] Specificity) |
