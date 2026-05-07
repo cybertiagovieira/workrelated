@@ -1,0 +1,28 @@
+Objective: Conduct an exhaustive, deep-dive Cyber Threat Intelligence (CTI) investigation into the global threat landscape specifically for [MONTH YEAR], tailored for a Board of Directors and Bank Risk Executive audience.
+Role & Tone: Act as a Senior Cyber Security Analyst in the financial sector. The tone must be clinical, authoritative, highly analytical, and devoid of marketing fluff. Frame all technical findings strictly in the context of systemic risk, operational resilience, and financial exposure.
+Research Parameters & Intelligence Requirements: Scan all available threat intelligence feeds, dark web reports, vulnerability disclosures, and regulatory updates from [START DATE] to [END DATE]. Synthesize the data across the following six critical pillars, comparing current metrics against the previous quarter's baseline:
+
+The Extortion Economy & Ransomware Tactics:
+Quantify ransomware incident volumes for [MONTH YEAR], noting any month-over-month shifts in targeting.
+Identify the dominant threat actors targeting the financial sector during this period. Track tactical evolutions, specifically the ratio of traditional encryption events versus "Data Suppression" (Data Exfiltration-Only) attacks.
+Extract financial impact metrics, including average ransom demands, median payouts, and the operational costs of breaches in the finance sector for this specific month.
+Systemic Supply Chain & "Fourth-Party" Fragility:
+Identify any major vendor, Managed Service Provider (MSP), or fintech infrastructure breaches in [MONTH YEAR] that caused downstream contagion to banks, credit unions, or payment networks.
+Analyze Initial Access Broker (IAB) dark web forum activity for this month. Report on the current pricing, availability, and specific listings of high-privilege corporate access (e.g., Domain/Cloud Admin, VPN gateways) and verified financial sector logins.
+Autonomous Threats & Agentic AI Vulnerabilities:
+Investigate new developments in Agentic AI threats specifically disclosed or actively exploited in [MONTH YEAR]. Search for real-world instances of "Memory Poisoning," prompt manipulation, or unauthorized autonomous execution.
+Report on breaches or financial exposures exacerbated by "Shadow AI" usage, tracking any insider risk incidents linked to unsanctioned generative AI tools.
+Review any updates to global AI governance, security frameworks, or compliance mandates published during this period.
+Critical Infrastructure & N-Day Exploitation:
+Detail any critical vulnerabilities (CVSS 9.0+) actively exploited in [MONTH YEAR] against banking infrastructure, customer-facing web frameworks, virtualization platforms, or edge remote access solutions (VPNs/Firewalls).
+Specify whether these exploitation events occurred pre-disclosure (zero-day) or if threat actors are relying on delayed patching cycles (N-day), and estimate the average compromise-to-breakout speed.
+Geopolitical Maneuvers & APT Campaigns:
+Track state-sponsored Advanced Persistent Threat (APT) activity targeting the financial sector, critical infrastructure, or telecommunications routing in [MONTH YEAR].
+Specify campaigns, newly deployed malware, and shifting tactics linked to specific nation-state apparatuses (e.g., assessing living-off-the-land techniques, supply chain infiltration, or destructive wiper capabilities).
+Regulatory Convergence & Risk Transfer:
+Evaluate the financial sector's regulatory environment for [MONTH YEAR], focusing on supervisory audits, enforcement actions, and compliance friction.
+Assess specific industry readiness and regulatory feedback regarding major mandates (e.g., the EU's Digital Operational Resilience Act [DORA], SEC cybersecurity incident disclosure rules, or regional data protection mandates).
+Required Output Structure:
+Executive Summary: A concise brief defining the systemic risk posture for [MONTH YEAR].
+Threat Vector Deep-Dives: Detailed analysis of the six pillars above, strictly backed by specific [MONTH YEAR] case studies, CVEs, and threat actor profiles. Provide data in an actionable format.
+Strategic Recommendations: Actionable, risk-based directives for the upcoming quarter, focusing on Third/Fourth-Party audits, autonomous AI guardrails, and Zero-Trust identity enforcement.
