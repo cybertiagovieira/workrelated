@@ -1,0 +1,31 @@
+Role: Act as a Senior Cyber-Risk Intelligence Analyst and Digital Asset Market Researcher.
+Task: Conduct an exhaustive, deep web search across global cryptocurrency market reports, blockchain threat intelligence disclosures, regulatory updates, and illicit finance trackers to provide a complete "Digital Asset & Crypto Risk Outlook" specifically for [MONTH YEAR].
+Strict Timeframe Constraint: You must strictly isolate data, events, hacks, and regulatory actions that occurred in [MONTH YEAR]. Do not include events from prior months or general annual statistics unless they are explicitly broken out to highlight the data for [MONTH YEAR].
+Information to Target and Extract (Organize the final output into these 5 Pillars):
+
+Macroeconomic Impact & Market Performance:
+The month-end price and percentage change for major assets (e.g., Bitcoin, Ethereum) and total crypto market capitalization.
+Key macroeconomic or geopolitical events that drove market volatility (e.g., global conflicts, tariff/trade announcements, interest rate decisions).
+Institutional demand signals (e.g., Spot ETF net inflows/outflows, liquidity conditions).
+Institutional Adoption, Tokenization & Stablecoins:
+Growth metrics and Total Value Locked (TVL) for tokenized Real-World Assets (RWAs).
+Stablecoin market capitalization, market dominance, and major volume shifts (e.g., USDC vs. USDT dynamics).
+Notable Traditional Finance (TradFi) pilots, partnerships, or product launches (e.g., banks piloting tokenized money market funds).
+Global Regulatory & Policy Shifts:
+Major regulatory framework implementations or legislative votes (e.g., US SEC/CFTC actions, stablecoin bills, EU MiCA updates).
+New licensing regimes or regulatory sandboxes launched globally (e.g., Hong Kong, UK, UAE, APAC).
+Changes in banking prudential standards regarding digital asset custody or reserves.
+Web3 Security & Top Exploits:
+The absolute total dollar amount lost to crypto hacks and scams specifically in [MONTH YEAR].
+A breakdown of the Top 3 to 5 largest protocol hacks of the month (include the protocol name, amount lost, and the specific attack vector such as Oracle Manipulation, Private Key Compromise, or Smart Contract bug).
+Emerging non-code threat vectors (e.g., AI agent poisoning, software supply chain worms targeting developers, or executive social engineering).
+Data on physical security threats to crypto holders (e.g., "wrench attacks", kidnappings, or extortion incidents).
+Illicit Finance & Law Enforcement Disruptions:
+Major law enforcement actions, arrests, or historic seizures of illicit digital assets.
+Updates on state-aligned sanctions evasion (e.g., activity linked to Russia, North Korea/DPRK, or Iran) using stablecoins or proprietary networks.
+Evolution in money laundering networks (e.g., OTC brokers, underground guarantee platforms, or pig butchering scam networks).
+Target Sources to Scan: Please query data from reports published in or immediately following [MONTH YEAR] by:
+Threat Intel & Forensics: TRM Labs, Chainalysis, Elliptic, CertiK, PeckShield, Halborn.
+Market & Legal Data: CoinMetrics, Artemis, Alpha Node, Lowenstein Sandler, PwC Global Crypto Regulation reports.
+Government Agencies: OFAC, US DOJ, CFTC, SEC, OCC, FATF, and international equivalents.
+Output Format: Keep the report direct, highly detailed, and professional. Use clear headings for the 5 pillars above, heavily utilize bullet points, and highlight exact financial figures, protocol names, and regulatory bills in bold. Include a brief executive summary at the beginning.
