@@ -1,0 +1,21 @@
+**Executive Summary**
+
+*   **Sapphire Sleet (also tracked as Lazarus Group, UNC1069, and TraderTraitor)** is a highly sophisticated, North Korean state-sponsored threat actor that has evolved from conducting direct perimeter assaults to executing catastrophic, industrial-scale software supply chain compromises and decentralized finance (DeFi) heists, successfully orchestrating nearly $600 million in theft and compromising millions of downstream enterprise environments globally in April 2026.
+
+**Threat Actor Intent & Capability**
+
+*   **State-Directed Financial Motivation:** Driven by the need to generate revenue for the North Korean regime, they target global financial institutions, venture capital, and digital asset platforms to steal liquid funds at a massive scale.
+*   **Subverting Trusted Technology:** They possess the advanced capability to infiltrate foundational open-source software, poisoning these trusted building blocks to bypass traditional security defenses and gain direct access to sensitive networks.
+*   **Sophisticated Human Manipulation:** They execute highly patient social engineering campaigns, often spending months building fake personas and relationships to trick targeted employees into installing malware.
+
+**Primary Attack Vectors**
+
+*   **Poisoning the Software Supply Chain:** Instead of attacking banks directly, they hack third-party dependencies used by developers. Installing these compromised updates automatically deploys invisible malware that steals corporate passwords and cloud keys.
+*   **Impersonating Trusted Communications:** They use fake profiles and counterfeit updates (such as fake Zoom alerts) to trick high-level staff into running malicious files that silently bypass built-in computer security protections.
+*   **Exploiting Financial Infrastructure:** When targeting financial platforms, they manipulate operational rules and underlying data networks—such as poisoning RPC nodes—to trick systems into releasing funds.
+
+**Relevance for Banking Sector**
+
+*   **Employees are the New Perimeter:** Attackers specifically target the workstations of developers and IT engineers to steal administrative passwords and cloud keys, rendering traditional perimeter firewalls completely ineffective.
+*   **Hidden Risks in Shared Technology:** Banks are highly vulnerable to these "invisible" attacks because the initial breach happens upstream at a trusted vendor or within shared software libraries, forcing banks to inherit external security failures.
+*   **Severe Regulatory and Contagion Risks:** The group's ability to drain hundreds of millions of dollars in minutes creates massive systemic liquidity risks, triggering intense regulatory scrutiny, legal liabilities, and costly enterprise-wide audits.
