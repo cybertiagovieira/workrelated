@@ -1,0 +1,80 @@
+### **Alert 1: Volumetric DDoS & Infrastructure Saturation**
+
+* **Critique:** The previous syntax included unnecessary quotation marks on list types, lowering query execution speeds across global datasets.
+
+
+* **Optimized Query:** `attacktype: "DDoS Distributed Denial-of-Service" AND (listtype: Brands OR listtype: Domains OR listtype: IPs)`
+
+
+### **Alert 2: Dark Web Initial Access Broker (IAB) Mentions of Bank Domains**
+
+* **Critique:** `NEAR` cannot bridge an entity array to a free-text string cluster. Transitioning to a strict `AND` boolean preserves cross-platform validation.
+
+
+* **Optimized Query:** `doctype: "Forum Post" AND ("initial access" OR "broker") AND (listtype: Domains OR listtype: Brands)`
+
+
+### **Alert 3: Ransomware Campaigns Targeting Financial Supply Chain**
+
+* **Critique:** Refines targeting by filtering explicitly for active ransomware data leak indicators populated across vendor log feeds.
+
+
+* **Optimized Query:** `doctype: "Blog" WITH {RansomwareVictim_Name = *} AND listtype: Suppliers`
+
+
+### **Alert 4: Exploitation of Zero-Day Vulnerabilities in Edge Infrastructure**
+
+* **Critique:** Replaces floating-point parameters with integer properties and integrates advanced Mandiant zero-day indicators to isolate high-fidelity edge risk.
+
+
+* **Optimized Query:** `entitytype: "Vulnerability" WITH {Cvss3_BaseScore >= 9, Severity_ExploitedAsZeroDay_Mandiant = Yes} AND listtype: Tech Stack`
+
+
+### **Alert 5: Compromise of Global Payment Gateways (SWIFT/SEPA)**
+
+* **Critique:** Constrains wide-area network noise by applying title-containment rules to focus exclusively on primary event reporting.
+
+
+* **Optimized Query:** `INTITLE (keyphrase: "SWIFT" OR keyphrase: "SEPA") AND (entitytype: "Attack Type" OR entitytype: "Incident")`
+
+
+### **Alert 6: Executive Deepfake & Targeted Disinformation Campaigns**
+
+* **Critique:** Remediation of illegal `NEAR` usage against unindexed string literals.
+
+
+* **Optimized Query:** `listtype: Executives AND ("deepfake" OR "disinformation" OR "impersonation")`
+
+
+### **Alert 7: Source Code & Proprietary Algorithm Leaks on Public Repositories**
+
+* **Critique:** Splitting logic to accommodate GitHub API translation constraints which explicitly drop `INTITLE` modifiers and misinterpret mixed boolean structures.
+
+
+* **Optimized Query (GitHub Widget):** `listtype: Domains AND "source code"`
+
+* **Optimized Query (Core Paste Monitor):** `doctype: "Paste" AND listtype: Brands AND ("source code" OR "confidential leak")`
+
+
+### **Alert 8: State-Sponsored Targeting of French/EU Critical National Infrastructure**
+
+* **Critique:** Stripping erroneous string quotes from geographical area polygon vectors.
+
+
+* **Optimized Query:** `GEOFENCE entitytype: Place zone: France AND listtype: "Threat Actors of Interest"`
+
+
+### **Alert 9: Hacktivist Planning ("OpFrance" / "Op[BankName]") on Telegram/Dark Web**
+
+* **Critique:** Cleans parameter quotes and adjusts wildcard boundaries to ensure comprehensive indexing across decentralized chat digests.
+
+
+* **Optimized Query:** `(doctype: "Forum Post" OR doctype: "Chat Digest") AND ("OpFrance" OR "OpEurope" OR hashtag: #OpFrance* OR listtype: Brands)`
+
+
+### **Alert 10: Compromise of Tier-1 Professional Services (Legal, HR, Audit)**
+
+* **Critique:** Replaces syntax-breaking text boundaries with native entity vectors to accurately isolate third-party risk anomalies.
+
+
+* **Optimized Query:** `listtype: Partners NEAR (incident: "Data Theft" OR incident: "Malware")`
