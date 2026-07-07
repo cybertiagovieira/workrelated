@@ -1,0 +1,73 @@
+**DRIVERS**
+
+* Systemic failure of operational queries due to empty or unpopulated parameter lists degrading threat detection coverage.
+* Misalignment between required analytical intents and native platform asset tagging mechanics (e.g., `listtype` mapping).
+
+**HORIZON**
+
+* **Immediate:** Population of core internal lists to restore dashboard utility and baseline monitoring.
+* **Emerging:** Automated integration of supplier and partner intelligence into consolidated workflows.
+* **Systemic:** Total ecosystem mapping combining infrastructure, supply chain, and human risk into a single intelligence pane.
+
+**IMPACT**
+
+* Incomplete or empty lists create critical intelligence gaps, rendering Boolean queries ineffective and resulting in missed systemic exploitation alerts.
+* Standardized naming conventions and proper entity mapping streamline automated reporting for risk committees and prevent localized data spillage.
+
+**ACTIONABILITY**
+
+* **Bank Identifier Convention:** Represent the organization universally as `[My Bank]` across all internal documentation, executive reports, and entity watchlists to prevent specific corporate data exposure in generalized queries. Use titles directly linked to this convention (e.g., `CEO of [My Bank]`).
+* **Listtype: Brands**
+* **Definition:** Intellectual property and products of interest.
+
+
+* **Bank Context:** Corporate names, retail banking app names, proprietary algorithmic trading platforms, credit card product lines, and exact spelling variants of `[My Bank]`.
+
+
+* **Listtype: Domains**
+* **Definition:** Domains and subdomains that are associated with your organization(s) of interest.
+
+
+* **Bank Context:** Exact web routes such as `[mybank].com`, `portal.[mybank].fr`, employee email root domains, API gateways, and external-facing cloud application URLs.
+
+
+* **Listtype: IPs**
+* **Definition:** IP addresses of interest, typically used within your organization or supply chain.
+
+
+* **Bank Context:** External-facing public IP ranges, perimeter firewall nodes, VPN access block ranges, and primary datacenter routing coordinates formatted in standard CIDR notation or single `IPv4` entries.
+
+
+* **Listtype: Suppliers**
+* **Definition:** Organizations, companies, or bodies that are part of your supply chain.
+
+
+* **Bank Context:** Cloud infrastructure hosts (e.g., AWS, Azure), managed IT service providers, specialized software vendors (e.g., core banking application developers), and external data center operators.
+
+
+* **Listtype: Tech Stack**
+* **Definition:** Software, hardware, or other technologies, typically used within your organization or supply chain.
+
+
+* **Bank Context:** Edge network devices (e.g., Cisco, Fortinet, Citrix), operating systems, hypervisors, secure access service edge (SASE) solutions, and specific middleware/database architecture versions deployed in production.
+
+
+* **Listtype: Executives**
+* **Definition:** Executives of interest within your organization.
+
+
+* **Bank Context:** Direct names and aliases of the C-Suite (e.g., `CEO of [My Bank]`, Group CRO, Board of Directors, and key regional managing directors).
+
+
+* **Listtype: Threat Actors of Interest**
+* **Definition:** Threat Actors that have been identified as an interest to your organization.
+
+
+* **Bank Context:** Known state-aligned advanced persistent threat (APT) groups targeting the EU/French financial sector, active Ransomware-as-a-Service (RaaS) syndicates, Initial Access Brokers (IABs), and hacktivist collectives.
+
+
+* **Listtype: Partners**
+* **Definition:** Organizations, companies, or bodies that are partner organizations.
+
+
+* **Bank Context:** Retained external legal counsel, HR and payroll firms, external auditors, regulatory compliance advisors, and strategic joint-venture financial entities.
