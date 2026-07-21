@@ -1,0 +1,55 @@
+I do not have the complete data for the entirety of the calendar month of June 2026. The sources explicitly state that absolute volume metrics for the full month of June 2026 are unavailable. 
+
+The most complete and accurate data available in the provided intelligence is strictly localized to a one-week subset of the month (June 8/9 to June 14/15, 2026). During this specific June window, the top 5 ransomware groups by absolute number of claimed cyber incidents were:
+
+1. **Qilin**: 25 victims
+2. **The Gentlemen**: 20 to 22 victims
+3. **LockBit 5.0**: 17 to 20 victims
+4. **DragonForce**: 12 to 13 victims
+5. **3AM**: 12 victims
+
+If you need the aggregated absolute totals for the entire month of June 2026, that specific dataset has not been provided in the current intelligence reports.
+
+--------------
+
+**ANALYST'S NOTES: RANSOMWARE ACTIVITY (JUNE 2026)**
+
+**Volume & Macro Trends**
+*   **Volumetric Surge:** Mid-June (June 8–14, 2026) telemetry recorded 192 unique ransomware victim claims across 40 active groups, representing a 61% week-over-week increase from the prior 119 claims.
+*   **Baseline Status:** Global run-rates for June 2026 indicate a sustained, highly elevated threat environment, tracking consistently with the 749 global incidents recorded in May 2026. 
+*   **Extortion Model Shift:** Double-extortion remains standard (87.6% of operations), but pure data extortion—without encryption payloads—is solidifying as a primary operating model to bypass endpoint detection.
+
+**Threat Actor Dynamics**
+*   **Qilin:** Reclaimed the top position in mid-June with 25 claimed victims. Operations were characterized by heavy exploitation of Check Point VPN vulnerabilities (CVE-2026-50751) and concentrated targeting of the US legal sector.
+*   **The Gentlemen:** Tied for the second most active group (20-22 victims). This rapidly scaling Ransomware-as-a-Service (RaaS) operation offers a 90% affiliate split and supplies affiliates with advanced, custom-built EDR-killer suites.
+*   **LockBit 5.0:** Maintained high volume (17-20 victims), demonstrating significant brand and affiliate resilience following recent law enforcement disruptions.
+*   **ShinyHunters:** Shifted exclusively to pure data extortion, listing major corporate brands (e.g., JCPenney, American Tower) strictly to leverage reputational and regulatory pressure rather than operational downtime.
+
+**Targeting Profile**
+*   **Sector Concentration:** Business Services absorbed the heaviest impact (33 victims, or 17% of mid-June postings), driven by intense campaigns against law firms and consultancies holding sensitive data. Manufacturing, Technology, and Consumer Services followed with 20 victims each.
+*   **Geographic Distribution:** The United States absorbed 33% of all global claims (64 victims) in mid-June. Germany (12 victims), the United Kingdom (9 victims), and India (8 victims) followed. 
+*   **Supply Chain Force Multipliers:** Technology and Managed Service Providers (MSPs) remain high-priority targets. Compromises in this sector are actively utilized to pivot into downstream client environments.
+
+**Tactical Evolution (TTPs)**
+*   **Advanced Defense Evasion (BYOVD):** *The Gentlemen* RaaS actively utilizes a proprietary "GentleKiller" framework. This Bring Your Own Vulnerable Driver (BYOVD) suite operates from kernel mode (Ring 0) to systematically terminate over 400 security processes associated with 48 distinct EDR/AV vendors.
+*   **Physical Office Intrusions:** The *Silent Ransom Group (Luna Moth)* has escalated tactics from remote vishing to physical intrusions. Operators posing as IT technicians have successfully breached US law firms by walking into offices and physically attaching USB storage to workstations for rapid data exfiltration.
+*   **Edge Device & RMM Exploitation:** Initial access heavily relies on unpatched perimeter devices rather than zero-days. Confirmed entry vectors include Check Point Remote Access VPNs (CVE-2026-50751), SimpleHelp RMM (CVE-2024-57727), and VMware ESXi authentication bypasses (CVE-2024-37085). 
+
+**Strategic Directives**
+*   **Perimeter Hardening:** Immediately audit and patch internet-facing VPNs, firewalls, and RMM tools. Rotate any credentials exposed during vulnerability windows.
+*   **EDR Resilience:** Configure endpoint protections to block the loading of known vulnerable kernel-mode drivers (e.g., `eb.sys`, `nseckrnl.sys`, `havoc.sys`) to defend against BYOVD frameworks like GentleKiller. 
+*   **Physical Security Integration:** Update visitor management protocols to require strict out-of-band verification for all unscheduled IT contractors or service technicians to mitigate physical social engineering threats.
+
+
+
+------
+AQUI
+-----
+*   Ransomware volume surged significantly during the mid-month period of June 8–14, 2026, recording 192 unique victim claims across 40 active groups, which represents a 61% week-over-week increase.
+*   Qilin led the mid-June threat landscape with 25 claimed victims, followed closely by the rapidly scaling Ransomware-as-a-Service (RaaS) operation "The Gentlemen" and a highly resilient LockBit 5.0, which tied for second with 20 victims each.
+*   The Business Services sector absorbed the heaviest impact during this period with 33 victims, while the United States remained the primary geographic target, sustaining 33% of all global claims.
+*   Advanced defense evasion became highly systematized, highlighted by The Gentlemen's deployment of "GentleKiller," a Bring Your Own Vulnerable Driver (BYOVD) framework operating in kernel mode to terminate over 400 distinct EDR and security processes.
+*   Pure data extortion models accelerated, with groups like ShinyHunters abandoning encryption payloads to focus on reputational leverage, while the Silent Ransom Group escalated to executing physical office intrusions to exfiltrate data via USB drives.
+*   Initial access campaigns heavily targeted unpatched perimeter devices, prioritizing critical edge infrastructure such as the Check Point Remote Access VPN zero-day (CVE-2026-50751) and large-scale credential harvesting against Fortinet firewalls.
+
+v
