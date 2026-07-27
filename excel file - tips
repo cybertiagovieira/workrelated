@@ -1,0 +1,34 @@
+# Three-Layer Evidence-Gated Maturity Model
+
+## 6-level scale (0–5):
+
+* **0 (Not Implemented):** Control absent; no evidence.
+* **1 (Initial):** Informal; individuals perform the activity with no consistency and limited scope.
+* **2 (Defined):** Documented; assigned owner; policies exist and are implemented in important areas.
+* **3 (Operational):** Implemented organization-wide; performed consistently.
+* **4 (Managed):** Performance measured; KPIs monitored; management oversight and risk-based improvements.
+* **5 (Optimized):** Automation; predictive capability; continuous optimization and benchmarking.
+
+> **Note:** Rather than using one generic label set for all 31 questions, draft a level-specific rubric per question so that achieving a Level 3 on "Incident Response" has completely different, checkable criteria than a Level 3 on "Encryption".
+
+---
+
+## Layer 2: Evidence Confidence
+
+The dedicated "Evidence" column only adds value if the scoring system actually uses it. Evidence quality should not alter the inherent maturity definition, but rather establish the confidence in that maturity score.
+
+* **A (Self-declaration):** Low confidence.
+* **B (Documentation):** Medium confidence.
+* **C (Documentation + Demonstration):** High confidence.
+* **D (Documentation + Technical Validation):** Very high confidence.
+
+---
+
+## Layer 3: Criticality Weighting
+
+Domains and controls are visibly uneven in criticality (e.g., "Cyber Security Defenses & Testing" carries more material risk than "CSR"). Treating every question equally flattens real risk differences.
+
+* Every control must be assigned a mathematical weight (e.g., **1–5**) based on its contribution to cyber resilience.
+* For example, *Password Complexity* might receive a weight of 1, while *Privileged Access Management* receives a weight of 5.
+* **Calculation Logic:** The overall score is calculated as `Σ (Control Score × Weight) / Σ (Weights)`.
+* **Not Applicable (N/A):** Controls marked N/A must be excluded from the denominator to prevent artificially penalizing the supplier.
