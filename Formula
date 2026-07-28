@@ -1,0 +1,57 @@
+Here are the exact Excel formulas to calculate the **Calculated Weighted Score** in Column K. I have provided both a baseline formula and an advanced version that incorporates the evidence-gating logic discussed previously.
+
+You will paste these into cell **K4** and drag them down to **K7**.
+
+### Option 1: Baseline Weighted Override Formula
+
+This formula executes the standard validation logic: it prioritizes the 2LoD verified score if one exists; if not, it uses the 1LoD self-assessment, multiplies it by the criticality weight, and explicitly handles "N/A" declarations to prevent math errors.
+
+**Formula for K4:**
+
+```excel
+=IF(OR(UPPER(TRIM(F4))="N/A", UPPER(TRIM(J4))="N/A"), "N/A", E4 * IF(ISNUMBER(J4), J4, F4))
+
+```
+
+**Logic Breakdown:**
+
+* **`IF(OR(UPPER(TRIM(F4))="N/A"...`**: Checks if either the 1LoD or 2LoD has declared the control "N/A". If true, it outputs "N/A" (text) so this row is excluded from domain-level averages.
+* **`IF(ISNUMBER(J4), J4, F4)`**: The Authority Override. It checks if the 2LoD Verified column (J) contains a number. If 2LoD has audited and scored it, that score becomes the absolute truth. If J4 is blank, it defaults to the 1LoD score (F4).
+* **`E4 *`**: Multiplies the final accepted maturity level (0-5) by the Control Criticality Weight (1-5) to generate the localized risk score.
+
+---
+
+### Option 2: Advanced Evidence-Gated Formula (Recommended)
+
+This formula automatically penalizes unverified self-attestations. If 1LoD claims a high maturity level (e.g., Level 3 or higher) but sets the Evidence Confidence Tier (H) to "A" (Self-declaration), the formula automatically caps their score at Level 2 (Defined) before applying the weight.
+
+**Formula for K4:**
+
+```excel
+=IF(OR(UPPER(TRIM(F4))="N/A", UPPER(TRIM(J4))="N/A"), "N/A", E4 * IF(ISNUMBER(J4), J4, IF(AND(ISNUMBER(F4), F4>2, LEFT(TRIM(H4),1)="A"), 2, F4)))
+
+```
+
+**Logic Breakdown:**
+
+* **`LEFT(TRIM(H4),1)="A"`**: Looks at the Evidence Tier column. If the dropdown selection starts with "A" (meaning Self-Declaration/Low Confidence).
+* **`AND(ISNUMBER(F4), F4>2...`**: Checks if the 1LoD is attempting to claim a maturity of 3, 4, or 5 without evidence.
+* **`IF(..., 2, F4)`**: The Penalty Gate. If the above is true, it forces the maturity down to a maximum of 2.
+* **`ISNUMBER(J4), J4...`**: The 2LoD override bypasses the penalty. If 2LoD inputs a score, it overrides the automated evidence gate entirely.
+
+---
+
+### Domain-Level Aggregation (The Heat Map Feeder)
+
+Because you are outputting text ("N/A") for non-applicable controls, you cannot use a simple average formula at the bottom of the section. To calculate the final Domain Score (out of a maximum of 5) without penalizing the vendor for N/A controls, use this formula below your block of questions:
+
+```excel
+=SUMIF(K4:K7, "<>N/A") / SUMIF(K4:K7, "<>N/A", E4:E7)
+
+```
+
+**How the Aggregation Works:**
+
+1. **`SUMIF(K4:K7, "<>N/A")`**: Adds up all the calculated weighted scores, ignoring any row marked "N/A".
+2. **`SUMIF(K4:K7, "<>N/A", E4:E7)`**: Adds up the *weights* (Column E) only for the rows that were actually scored (ignoring the weights of N/A rows).
+3. **The Division**: Divides the total weighted points by the total active weights, returning a mathematically pure Domain Score between 0.0 and 5.0.
