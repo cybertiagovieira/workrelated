@@ -1,0 +1,19 @@
+=LET(
+  v1raw; TRIM(F4);
+  v1num; IFERROR(VALUE(v1raw); NA());
+  v1isna; IF(UPPER(v1raw)="N/A"; TRUE; FALSE);
+  v2raw; TRIM(J4);
+  v2num; IFERROR(VALUE(v2raw); NA());
+  v2isnum; ISNUMBER(v2num);
+  h1; IF(TRIM(H4)=""; ""; UPPER(LEFT(TRIM(H4);1)));
+  maturity; IF(
+    v2isnum;
+    v2num;
+    IF(
+      AND(IFERROR(v1num;0)>2; h1="A"),
+      2,
+      IF(ISNUMBER(v1num); v1num; 0)
+    )
+  );
+  IF(OR(v1isna; UPPER(v2raw)="N/A"); "N/A"; E4 * maturity)
+)
