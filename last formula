@@ -1,0 +1,13 @@
+**OPTIMIZED SCORING FORMULA (NULL-STATE EXCLUDED)**
+
+```excel
+=IF(OR(UPPER(TRIM(F4))="N/A", UPPER(TRIM(J4))="N/A"), "N/A", E4 * IF(ISNUMBER(J4), J4, IF(AND(F4>2, LEFT(TRIM(H4),1)="A"), 2, F4)))
+
+```
+
+**EXECUTION LOGIC**
+
+* **N/A Override:** Prioritizes the text string `"N/A"` in either `F4` (1LoD) or `J4` (2LoD). Halts the calculation and outputs `"N/A"` to guarantee exclusion from domain-level aggregate denominators.
+* **2LoD Absolute Authority:** `IF(ISNUMBER(J4), J4...` evaluates if Risk Management has inputted a verified numerical score. If true, the system entirely bypasses 1LoD inputs and evidence gating, establishing the 2LoD parameter as the immutable risk value.
+* **Automated Evidence Gating:** `IF(AND(F4>2, LEFT(TRIM(H4),1)="A"), 2, F4)` mathematically enforces the Risk Appetite Framework. It triggers when 1LoD claims an operational maturity of 3, 4, or 5 but pairs it with an "A" (Low Confidence/Self-Declaration) tier. The engine automatically degrades the maturity multiplier to a maximum ceiling of 2.
+* **Risk Value Derivation:** The finalized maturity integer is multiplied by the Control Criticality Weight (`E4`) to output the unmitigated operational risk score for immediate pipeline ingestion.
