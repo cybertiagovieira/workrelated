@@ -1,0 +1,9 @@
+=LET(
+  v1, IF(TRIM(F4)="", "N/A", UPPER(TRIM(F4))),
+  v2raw, TRIM(J4),
+  v2num, IFERROR(VALUE(v2raw), NA()),
+  v2isnum, IF(ISNUMBER(v2num), TRUE, FALSE),
+  h1, IF(TRIM(H4)="", "", UPPER(LEFT(TRIM(H4),1))),
+  maturity, IF(v2isnum, v2num, IF(AND(IFERROR(VALUE(v1),0)>2, h1="A"), 2, IFERROR(VALUE(v1), IFERROR(--v1,0)))),
+  IF(OR(v1="N/A", v2raw="N/A"), "N/A", E4 * maturity)
+)
