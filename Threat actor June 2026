@@ -1,0 +1,14 @@
+### Executive Summary
+ * Russia-aligned espionage group Void Blizzard (Laundry Bear / TA488) is actively exploiting a Microsoft Exchange Outlook Web Access (OWA) zero-day vulnerability (CVE-2026-42897) to achieve stealthy, automatic mailbox compromise when targets preview malicious emails.
+### Threat Actor Intent & Capability
+ * **Strategic Cyber Espionage**: Focuses exclusively on long-term intelligence collection and high-value data exfiltration rather than financial extortion or operational disruption.
+ * **Stealthy In-Memory Execution**: Deploys fileless JavaScript implants (OWAReaper) that run entirely in browser memory, self-delete the original exploit email, and leave no footprint on disk.
+ * **Device-Independent Persistence**: Modifies Exchange server permissions and local browser storage to maintain mailbox access across password rotations and hardware re-imaging.
+### Primary Attack Vectors
+ * **Zero-Click Webmail Exploitation**: Leverages an OWA vulnerability (CVE-2026-42897) that automatically triggers malicious code execution the moment an email is viewed or previewed.
+ * **Low-Profile Email Lures**: Crafts banal, non-suspicious messages about routine industry metrics to induce email previewing without alerting security teams.
+ * **Covert Command & Exfiltration Channels**: Obtains instructions via public GitHub commits or hidden inbound emails while exfiltrating stolen data through encrypted traffic disguised via content delivery networks.
+### Relevance for Banking Sector
+ * **Renders Traditional MFA Ineffective**: Hijacks active, authenticated webmail sessions upon message preview, bypassing security awareness training and multi-factor authentication (MFA) controls.
+ * **High Risk to On-Premises Infrastructure**: Endangers financial institutions operating on-premises Exchange servers, threatening exposure of sensitive financial communications, client data, and market analysis.
+ * **Complex Remediation Requirements**: Complete eviction requires server-side Exchange permission audits and browser cache clearing, as standard credential resets and endpoint re-imaging fail to sever attacker access.
