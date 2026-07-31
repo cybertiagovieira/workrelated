@@ -1,0 +1,10 @@
+### KEY CHANGES OF THE MONTH
+ * **1. Third-Party AI Software Supply Chain Compromise**
+   * **Event**: State-sponsored actors hijacked a trusted developer account, infecting 141 open-source AI software components in under 90 minutes.
+   * **Executive Impact**: Authenticated account access bypassed standard security controls, directly exposing internal developer pipelines and cloud administrative credentials.
+ * **2. Mandatory Regulatory Submissions on AI Defense (ECB Directive SSM-2026-0301)**
+   * **Event**: The European Central Bank mandated that all significant financial institutions submit a board-approved AI cyber defense strategy by October 31, 2026.
+   * **Executive Impact**: Legacy patching cycles fail against automated AI exploitation speeds, causing unaddressed gaps to directly increase Pillar 2 capital requirements.
+ * **3. Active Supervisory Enforcement of Digital Resilience (DORA & NIS2)**
+   * **Event**: EU supervisory authorities initiated active enforcement, cross-checking vendor registers to issue binding audits and remediation orders.
+   * **Executive Impact**: Questionnaire-based vendor assessments mask sub-contractor concentration risks, creating direct exposure to fines up to 2% of global turnover and personal executive liability.
