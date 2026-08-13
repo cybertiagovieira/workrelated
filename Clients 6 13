@@ -1,0 +1,20 @@
+Client name: Cisco Systems Inc.
+Concise description of the event: Cisco disclosed a critical, actively exploited remote denial-of-service vulnerability (CVE-2026-20349) affecting Secure Firewall Threat Defense and ASA SSL-VPN appliances, enabling unauthenticated attackers to force device reloads via crafted HTTP requests.
+What it means for our clients: External perimeter choke points face immediate stability risks from automated denial-of-service vectors, requiring emergency hotfix deployment to prevent remote-access gateway outages.
+Sources (Urls): https://advantage.mandiant.com/vulnerabilities/vulnerability--a673116c-a8c1-5b80-b4bd-d636203521a1
+Client name: Microsoft Corporation
+Concise description of the event: Microsoft's August 2026 Patch Tuesday addressed over 400 vulnerabilities, highlighting active zero-day exploitation of an AFD.sys kernel privilege escalation flaw (CVE-2026-68820) alongside unauthenticated exposure risks in the UFO automation framework.
+What it means for our clients: Active exploitation of core kernel vectors accelerates local-to-system attacker control capabilities, mandating emergency infrastructure-wide patching priorities.
+Sources (Urls): https://advantage.mandiant.com/reports/26-10052587, https://www.it-boltwise.de/microsoft-patchday-august-419-cves-und-aktiv-genutzte-zero-days.html
+Client name: Netflix Inc.
+Concise description of the event: Threat actors are actively weaponizing phishing infrastructure on GitHub Pages alongside dark web forums to distribute compromised cookies, combo lists, and account resale packages targeting user access.
+What it means for our clients: Ecosystem-wide credential abuse and session hijacking schemes threaten client brand reputation and consumer account integrity via external fraud vectors.
+Sources (Urls): https://my.silobreaker.com/v2/document/5_2281663869191454729
+Client name: Spotify Technology SA
+Concise description of the event: Cyber threat actors deployed targeted phishing infrastructure impersonating Spotify to harvest user credentials, operating in parallel with corporate policy shifts regarding AI artist visibility.
+What it means for our clients: External credential harvesting campaigns expose consumer user bases to account takeover risks, necessitating active domain monitoring and takedown protocols.
+Sources (Urls): https://my.silobreaker.com/v2/document/5_2281663591360757762
+Client name: UPS United Parcel Service Inc
+Concise description of the event: Underground cybercrime channels are actively advertising unauthorized business shipping accounts, authentication credentials, and manifest generation services across major logistics operators.
+What it means for our clients: Logistics credential compromise and fraudulent label generation expose supply chain pathways to systemic fraud, financial loss, and unauthorized cargo routing risks.
+Sources (Urls): https://app.flashpoint.io/search/context/communities/GOnxRtZvXG20Lzif0u2g0A#GOnxRtZvXG20Lzif0u2g0A
