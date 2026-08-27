@@ -1,0 +1,63 @@
+Scenario 1: AI-Agent Dependency Hallucination and Attacker-Controlled Package Installation
+
+Evidence basis: Observed real-world AI-agent dependency-resolution activity and documented reproducible security research. In January 2026, a non-existent react-codeshift package name appeared in AI-generated agent skill files across 237 GitHub repositories. After a security researcher registered a harmless placeholder package, continued package-download attempts were observed. The case does not establish a malicious package, a victim compromise or data loss. 
+
+What happened: Agent skill instructions that appeared to be ordinary development guidance referred to a package that did not exist. AI agents following those instructions initiated package-resolution requests to a public registry. The case demonstrates how an agent can act on an unvalidated software dependency without a conventional human validation step. A malicious actor registering a similarly hallucinated name could create a pathway for attacker-controlled software to enter an agent, developer or build environment. 
+
+Attack chain
+
+• Agent task initiation: The agent is given a routine coding, migration or dependency-upgrade task and reads a project instruction, skill file or generated recommendation.
+
+• Unvalidated dependency selection: The agent identifies a plausible package name that has not been checked against an approved catalogue, publisher policy or internal registry.
+
+• Package resolution: The agent invokes the package manager, which contacts a public or private registry to retrieve the selected package.
+
+• Local execution: The retrieved package runs in the agent, developer or build environment. In the observed react-codeshift case, the registered placeholder was harmless; in a malicious variant, package execution could create a route to unauthorised code execution or credential access.
+
+• Outbound activity: A malicious package could attempt to contact external infrastructure. The controlled test uses only a test identifier sent to an internal listener.
+
+Controlled reproduction
+
+1.
+Use an isolated developer or CI-like test environment containing no production credentials, no production data and no access to production services.
+
+2.
+Deploy a private test registry and create a unique synthetic package name. The test package should be non-harmful: it should create a detection marker and send one test-only identifier to a controlled internal listener.
+
+3.
+Configure a controlled agent skill or project instruction that refers to the synthetic package name, then give the agent an ordinary development task that invokes its package-resolution capability.
+
+4.
+Record the agent action, package-manager command, registry request, endpoint process chain, workload identity and callback to the controlled listener. Determine whether each stage is visible, detected, investigated and, where policy requires, blocked or contained.
+
+What to monitor
+
+• Agent tool calls that invoke package installation or execution, including the agent session and effective identity.
+
+• New or unapproved package names, publishers, registries or namespaces selected by an agent.
+
+• DNS and secure web sessions from the agent, developer or build workload to a package registry.
+
+• Process chains linking the agent to the package manager and to any child process launched during package installation.
+
+• Outbound connections initiated after package retrieval, particularly where the destination is not an approved package registry or developer service.
+
+• The sequence linking agent instruction, package selection, software retrieval, local execution and outbound activity.
+
+Assessment value
+
+This scenario tests whether security monitoring can correlate an autonomous agent decision with package acquisition, local execution, workload identity and subsequent network activity. It assesses whether controls distinguish an approved dependency workflow from an unvalidated package selected by an agent, and whether the organisation can detect, investigate, contain or prevent the progression before an attacker-controlled package could affect a developer or build environment.
+
+
+-------------------------------
+
+Scenario
+Evidence basis
+Attack surface
+Attack chain
+Main monitoring focus
+1
+Observed AI-agent dependency-resolution activity and reproducible security research: react-codeshift agent-skill case, January to March 2026. No victim compromise is established by the selected evidence.
+Coding agent, project or skill instruction, package manager, package registry, developer or build workload
+Task initiation → unvalidated dependency selection → package resolution → local execution → outbound activity
+Agent package-install actions, dependency provenance, registry DNS and secure web sessions, agent-to-package-manager process chain, workload identity, registry-to-egress correlation
