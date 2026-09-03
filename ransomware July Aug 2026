@@ -1,0 +1,60 @@
+**Reporting Basis**
+
+- **Window:** 1 July 2026 to 31 August 2026
+- **Metric:** 1,929 distinct public data-leak-site victim claims
+- **Country coverage:** 93.2%; country-unknown records remain in the percentage denominator
+- **Industry coverage:** 84.1%
+- **Cross-month duplicates removed:** 4 exact post-URL records
+- **Interpretation:** Reported victim claims are activity signals, not confirmed attacks, intrusions, data theft, encryption, payments, or losses.
+
+**Top Target Countries**
+
+| Rank | Country | Victim claims | Share of all victim claims |
+| ---: | --- | ---: | ---: |
+| 1 | United States | 666 | **34.5%** |
+| 2 | Germany | 110 | **5.7%** |
+| 3 | United Kingdom | 81 | **4.2%** |
+| 4 | Italy | 74 | **3.8%** |
+| 5 | Canada | 57 | **3.0%** |
+| 6 | Brazil | 49 | **2.5%** |
+| 7 | India | 45 | **2.3%** |
+| 8 | France | 41 | **2.1%** |
+| 9 | Mexico | 40 | **2.1%** |
+| 10 | Spain | 34 | **1.8%** |
+
+**Top Target Industries**
+
+| Rank | Industry | Victim claims |
+| ---: | --- | ---: |
+| 1 | Manufacturing | **312** |
+| 2 | Professional Services | **278** |
+| 3 | Technology | **256** |
+| 4 | Healthcare | **184** |
+| 5 | Retail & E-Commerce | **129** |
+| 6 | Financial Services | **109** |
+
+**Top 5 Ransomware Groups**
+
+| Rank | Group | Victim claims |
+| ---: | --- | ---: |
+| 1 | qilin | **291** |
+| 2 | thegentlemen | **251** |
+| 3 | Deadlock | **90** |
+| 4 | incransom | **79** |
+| 5 | krybit | **61** |
+
+[Combined rankings and methodology](/home/ubuntu/monthly-ransomware-output/2026-07-08/ransomware_rankings_july_august_2026.md)  
+[Controlled metrics JSON](/home/ubuntu/monthly-ransomware-output/2026-07-08/ransomware_metrics_2026_07_08.json)  
+[Combined retained claim extract](/home/ubuntu/monthly-ransomware-output/2026-07-08/ransomware_claims_2026_07_08.csv)  
+[Updated complete July-August intelligence package](/home/ubuntu/monthly-ransomware-intelligence-july-august-2026.zip)
+
+
+
+Risk Committee Findings
+Reported victim-claim volume: 928 distinct data-leak-site victim claims in July, increasing 33.3% from June; 1,005 claims in August, increasing 8.2% from July under the same source and method.
+Geographic concentration: The United States represented 34.5% of July claims and 34.7% of August claims.
+Sector pattern: Professional Services led July with 161 source-provided category entries; Manufacturing led August with 159. Financial Services increased from 47 to 62 reported claims.
+Actor concentration: thegentlemen led July with 135 claims; qilin led August with 164. The top-five group share declined from 45.8% to 41.0% while source-attributed group count increased from 67 to 83.
+Control challenge: Official reporting identifies affiliate-based ransomware operations using internet-facing firewall and VPN weaknesses, access brokers, and rapid exploitation of newly disclosed vulnerabilities.
+2LoD assessment: Remote-access governance, identity assurance, remediation speed, and supplier concentration require focused challenge because weaknesses can create disruption pathways across shared business services. No source establishes an organisation-specific incident, data access, encryption, payment, loss, or regulatory breach.
+Quality controls: All required files are non-empty; headline metrics trace to the controlled JSON extracts; automated Risk Committee language controls passed.
