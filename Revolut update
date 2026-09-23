@@ -1,0 +1,59 @@
+Yes, we can confirm that the news article regarding the **"147 GB stolen from Italian law enforcement" is directly related to the same September 2026 Revolut incident**. It is **not** a new or separate cyberattack.
+
+### What the Article Means in Context:
+
+1. **The Extortion Strategy:** After Revolut blocked the fraudulent email address on September 11, 2026, the hacker operating under the handle "IAmNotAVillain" posted on Telegram claiming that because they used an official Italian government email address (`pec.interno.it`) to request Revolut customer files, they had also hacked Italian police systems and stolen 147 GB of internal police documents.
+
+
+2. **Official Police Findings (September 21, 2026):** The Italian Postal Police (*Polizia Postale*) conducted an immediate investigation into the claim. They officially confirmed there was **no evidence** of any breach or hack of the Italian Interior Ministry's central infrastructure (*Viminale*) or theft of 147 GB.
+
+
+3. **The Real Access Vector:** Threat intelligence analysis (by cybersecurity firm Hudson Rock) confirmed the attacker never hacked Italian police servers. Instead, they simply bought stolen government email credentials off dark web marketplaces containing malware logs.
+
+
+
+---
+
+Here is the update email draft formatted for executive leadership as a follow-up to your previously sent briefing:
+
+---
+
+**Subject:** Executive Briefing Update - Revolut Case Escalation, Media Claims, and Phishing Threats
+
+**Executive Summary Update**
+Following our previous briefing regarding the September 11, 2026 Revolut Bank customer data incident, recent investigations and threat actor activities provide important updates regarding extortion claims and follow-on risks.
+
+**Clarification on Media Reports - Italian Law Enforcement Claims**
+Recent media headlines report that the hacker claims to hold 147 GB of data stolen from Italian police forces. We can confirm this is directly tied to the same September 2026 Revolut incident and is not a separate breach:
+
+* **Origin of Claim:** On Telegram, the threat actor ("IAmNotAVillain") claimed that while impersonating Italian law enforcement to request Revolut customer files, they also breached Italian police systems.
+
+
+* **Official Investigation Findings:** On September 21, 2026, the Italian Postal Police (*Polizia Postale*) stated that initial checks found no security failure in the Italian Interior Ministry's servers and no proof that 147 GB of police data was stolen.
+
+
+* **Verified Vector:** Threat intelligence confirms the attacker did not hack police infrastructure, but used stolen government email credentials purchased from dark web malware logs.
+
+
+
+**Second-Wave Threat Vector - Targeted Customer Phishing**
+A new risk vector has emerged for account holders following the data exposure:
+
+* **Active Phishing Campaign:** Starting September 14, 2026, affected Revolut customers began receiving sophisticated SMS phishing messages.
+
+
+* **Fake Facial Verification:** The scam links direct users to fake web pages that mimic Revolut's live-video camera check (asking users to turn their head) followed by a password prompt. This allows attackers to capture both login credentials and facial video recordings to attempt account takeovers.
+
+
+
+**Extortion Status and Official Responses**
+
+* **Targeted Public Disclosures:** The threat actors continue to publish complete Know Your Customer (KYC) identity dossiers of high-profile victims on public channels. Confirmed leaks include passport scans and selfies of prominent individuals, including Gamdom.com CEO Felix Römer and professional tennis player Alexander Shevchenko.
+
+
+* **Ransom Status:** The extortion group demanded a $3 million ransom. Revolut officially confirmed it has received no direct contact or ransom demands from the group and is working with regulatory and law enforcement authorities.
+
+
+
+**Key Institutional Takeaway**
+This case demonstrates how threat actors combine administrative social engineering with follow-on phishing and media extortion. Our institution's risk posture remains focused on ensuring compliance intake channels require independent verification and educating staff on second-wave phishing vectors.
