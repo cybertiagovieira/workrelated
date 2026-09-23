@@ -1,0 +1,158 @@
+Here is a complete, executive-ready speaker script and set of talking points designed for a **10 to 15-minute presentation** (~2.5 minutes per slide) to the internal **Anti-Fraud Community**.
+
+---
+
+### Slide 1: Executive Threat Summary & 2026 Macro Catalyst
+* **Time Allocation:** ~2.5 minutes  
+* **Slide Focus:** The emergence of Mirax RAT and the macro environmental factors driving residential proxy integration.
+
+```
++---------------------------------------------------------------------------------------------------+
+| SLIDE 1 TALKING POINTS SUMMARY                                                                    |
+| • Emergence: Mirax active in Europe since early 2026; 200,000+ accounts exposed (notably Spain).  |
+| • Macro Catalyst: Operation Lightning (March 2026) dismantled SocksEscort (369k nodes).          |
+| • Strategic Shift: Proxy supply shock forced malware developers to build native proxy engines.    |
++---------------------------------------------------------------------------------------------------+
+```
+
+#### Speaker Script:
+> "Good morning, colleagues. In this briefing, I will present our Technology Risk Intelligence assessment on a critical threat vector that directly impacts our automated fraud controls and payment rail exposure: the **Mirax Android Remote Access Trojan**.
+>
+> Mirax emerged in underground distribution channels in late 2025 and escalated rapidly across Western Europe through early 2026. In Spain alone, initial campaigns impacted over 200,000 retail banking accounts. What makes Mirax pivotal from a technology risk perspective is not merely its ability to steal credentials, but *why* and *how* its architecture evolved.
+>
+> In March 2026, international law enforcement executed **Operation Lightning**, seizing 34 domains and dismantling *SocksEscort*, a commercial proxy network that weaponized over 369,000 infected routers worldwide. Concurrently, private industry disruptions dismantled other major commercial proxy services.
+>
+> This created an immediate supply shock in clean residential IP addresses across the cybercrime ecosystem. In response, threat actors shifted from purchasing third-party proxy access to embedding native C-based SOCKS5 proxy engines directly into mobile banking malware. This established a **dual-monetization paradigm**: every compromised client smartphone serves as both a tool for direct credential theft and a hidden network bridge for third-party cybercrime traffic.
+>
+> Let us examine how this infection enters the client ecosystem."
+
+---
+
+### Slide 2: Infection Pipeline & Dual-Monetization Mechanics
+* **Time Allocation:** ~2.5 minutes  
+* **Slide Focus:** Sideloading lures, dynamic overlays, and the critical fallback risk.
+
+```
++---------------------------------------------------------------------------------------------------+
+| SLIDE 2 TALKING POINTS SUMMARY                                                                    |
+| • Vector: Malvertising on Meta & TikTok disguised as free streaming/utility apps.                |
+| • Dual Engine: 182+ bank/crypto templates for ATO + SOCKS5 residential proxy node creation.       |
+| • Fallback Risk: Proxy operates silently even if the user denies Accessibility permissions.       |
++---------------------------------------------------------------------------------------------------+
+```
+
+#### Speaker Script:
+> "To evaluate our risk surface, we must recognize that infections originate entirely outside the bank’s digital perimeter. 
+>
+> Malware operators deploy targeted malvertising campaigns across popular social media platforms, including Facebook, Instagram, and TikTok. These advertisements promote pirated sports streaming or utility applications, luring retail clients to external landing pages hosted on public platforms like GitHub Releases. To defeat static security scanners, the operators automatically repack the application daily, constantly rotating the file hashes.
+>
+> Once sideloaded onto the customer's device, Mirax executes a two-pronged operational strategy:
+>
+> 1. **Financial Fraud Engine:** When granted system permissions, Mirax monitors active applications and deploys fake login overlays synchronized with legitimate banking apps. Its C2 infrastructure maintains dynamic templates targeting over 182 European financial and cryptocurrency applications to capture credentials, PINs, and incoming SMS verification codes.
+> 2. **Residential Proxy Engine:** Simultaneously, the malware initializes a background SOCKS5 proxy module. This module registers the client's smartphone as an active node within an attacker-controlled residential proxy network.
+>
+> **The critical technology risk lies in the fallback mechanism:** if a cautious customer denies high-level Accessibility permissions, the banking Trojan overlays fail to initialize. However, the hidden proxy engine operates under standard background process privileges, establishing its connection regardless. The attacker successfully monetizes the device as proxy infrastructure even if the credential theft attempt fails."
+
+---
+
+### Slide 3: Technology Risk Engine Neutralization
+* **Time Allocation:** ~2.5 minutes  
+* **Slide Focus:** How residential proxy tunneling invalidates traditional IP and geolocation controls.
+
+```
++---------------------------------------------------------------------------------------------------+
+| SLIDE 3 TALKING POINTS SUMMARY                                                                    |
+| • Tunneling: Fraudsters route stolen login traffic back through the victim's infected phone.     |
+| • Evasion: Geolocation, IP reputation, and Device-IP binding checks evaluate as legitimate.       |
+| • Impact: Automated fraud scoring misclassifies Account Takeovers as routine client activity.     |
++---------------------------------------------------------------------------------------------------+
+```
+
+#### Speaker Script:
+> "Now let us analyze why this threat model breaks traditional automated anti-fraud controls.
+>
+> Historically, bank transaction monitoring engines rely heavily on network perimeter checks. When an account takeover attempt originates from a commercial data center, a VPN service, or an foreign IP address, our automated risk engines flag the velocity anomaly and trigger step-up authentication or block the transfer.
+>
+> Mirax completely neutralizes these perimeter controls through **proxy tunneling**. 
+>
+> When a fraudster attempts an Account Takeover using stolen credentials, they do not connect to our online banking portal directly. Instead, they route their browser session through the client’s infected smartphone via the encrypted device tunnel.
+>
+> As a result, the transaction request enters the bank’s payment Gateway directly from the customer’s authentic network interface—utilizing their actual mobile operator tower or home Wi-Fi IP address. 
+>
+> When our automated risk engine evaluates the session:
+> * **IP Geolocation & Reputation:** Passed as legitimate.
+> * **Device-IP Binding & ASN History:** Matches the client's historical network footprint.
+>
+> Because the connection originates from the customer's trusted network footprint, automated risk engines evaluate high-risk Account Takeovers as routine customer activity."
+
+---
+
+### Slide 4: Regulatory & Liability Exposure under EU PSD3 / PSR
+* **Time Allocation:** ~2.5 minutes  
+* **Slide Focus:** Instant payment velocity, PSD3/PSR mandates, and institutional financial exposure.
+
+```
++---------------------------------------------------------------------------------------------------+
+| SLIDE 4 TALKING POINTS SUMMARY                                                                    |
+| • Velocity: SEPA Instant 10-second settlement eliminates manual anti-fraud review windows.        |
+| • PSD3 / PSR: Shifts reimbursement liability to banks unless gross customer negligence is proven. |
+| • Exposure: Authentic IP logs prevent banks from proving customer negligence, causing 100% loss.  |
++---------------------------------------------------------------------------------------------------+
+```
+
+#### Speaker Script:
+> "The technical neutralization of our risk engines creates direct financial and regulatory liability for the bank under emerging European frameworks.
+>
+> Under the **EU Instant Payments Regulation**, financial institutions are mandated to process SEPA Instant credit transfers within **10 seconds**, 24/7/365. This real-time settlement requirement eliminates traditional manual fraud review buffers.
+>
+> Concurrently, proposed revisions under **PSD3 and the Payment Services Regulation (PSR)** establish strict fraud reimbursement mandates. Payment service providers and issuing banks are legally required to reimburse victims of unauthorized transfers or Authorized Push Payment (APP) fraud unless the bank can conclusively prove gross negligence on the part of the consumer.
+>
+> Here is where technology risk directly drives balance-sheet loss:
+> When a victim files a fraud claim, our server audit logs show that the transaction was executed using valid credentials and originated directly from the customer's known home IP address and mobile network footprint. 
+>
+> Because the network logs display an authentic customer footprint, the bank cannot demonstrate network-level anomaly or user negligence. Under PSD3 guidelines, the bank is unable to dispute the claim, forcing **100% of the financial loss absorption onto our institution**."
+
+---
+
+### Slide 5: Strategic Technology Risk Mitigation
+* **Time Allocation:** ~2.5 minutes  
+* **Slide Focus:** Beyond network checks—client SDK inspection, behavioral biometrics, and cross-layer correlation.
+
+```
++---------------------------------------------------------------------------------------------------+
+| SLIDE 5 TALKING POINTS SUMMARY                                                                    |
+| • Paradigm Shift: IP reputation and location are no longer valid indicators of session trust.     |
+| • Client SDKs: Inspect mobile app environment for hidden background proxy connections.            |
+| • Biometrics & Correlation: Analyze touch dynamics; feed multi-layer signals to risk engines.      |
++---------------------------------------------------------------------------------------------------+
+```
+
+#### Speaker Script:
+> "To close our assessment, we must address how our defensive architecture must adapt.
+>
+> The core lesson of the Mirax case is that **network location and IP reputation are no longer sufficient indicators of session trust**. To protect our payment rails, we must shift from static perimeter checks to multi-layered, real-time session assurance.
+>
+> We recommend three primary control upgrades for our mobile and payment infrastructure:
+>
+> 1. **Client-Side Mobile SDK Inspection:** Embed security controls within our mobile banking application to continuously inspect local socket bindings (`/proc/net/tcp`) and detect active hidden background proxy connections or unauthorized background listeners.
+> 2. **Behavioral Biometrics & Interaction Dynamics:** Implement touch-interaction analysis. Remote screen control or automated script execution exhibits non-human interaction patterns—such as zero-variance tap coordinates, missing touch pressure dynamics, and instant text insertion.
+> 3. **Cross-Layer Signal Correlation:** Feed client-side mobile SDK integrity signals, behavioral interaction dynamics, and transaction velocity directly into a unified real-time risk scoring engine.
+>
+> If a transaction request arrives from a clean residential IP address but our client SDK flags a hidden background proxy connection or abnormal touch dynamics, the risk engine immediately freezes the transfer prior to SEPA Instant settlement.
+>
+> Thank you. I am now open to questions from the committee."
+
+---
+
+### Executive Q&A Preparation (Quick Reference for Speaker)
+
+* **Q: Why can't we just block traffic coming from GitHub or social media ads?**  
+  * **A:** Infections occur entirely on the client's personal device outside our network. Blocking those domains internally does not prevent retail clients from downloading malicious apps onto their personal smartphones via social media ads.
+* **Q: Does this affect iOS / Apple devices?**  
+  * **A:** Mirax is currently an Android-specific threat due to Android's sideloading capabilities and Accessibility Services architecture. However, the concept of residential proxy tunneling applies broadly across mobile platforms.
+* **Q: What is the estimated timeline for implementing client SDK proxy detection?**  
+  * **A:** Client-side local socket inspection and Accessibility state verification can be integrated into our mobile app build pipeline within a standard quarterly release cycle.
+
+---
+
+💡 *Would you like me to generate a concise 1-page executive summary memo based on these talking points to distribute to the committee members after your presentation?*
