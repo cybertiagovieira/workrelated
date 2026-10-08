@@ -1,0 +1,35 @@
+Here is a part of the meeting notes for the kick off... 
+Please adjust, fix  and let's create in the shared folder a meeting notes with the date.
+
+Here is a summary of the Attack Surface Management (ASM) audit kickoff meeting:
+
+### **1. Mission Purpose & Key Objectives**
+* **Identify External Attack Surface**: The primary goal is to map all external-facing assets that an attacker could exploit and determine whether the organization has complete visibility over them.
+* **Assess Governance & Maintenance**: The team will evaluate how asset data is entered, maintained, and owned across different business entities (e.g., following procedures like those for *Ref Web*).
+* **Evaluate Qualys ASM Module**: The audit will review the organization's current testing of the Qualys ASM discovery module to assess whether it fits the group's needs or if alternative solutions should be considered.
+
+---
+
+### **2. Scope & Key Focus Areas**
+* **Database & Repository Mapping**: The team will map asset inventories across multiple repositories, including **CMDB**, **Ref Web**, **Qualys**, and **BitSight**, to verify data completeness and identify gaps.
+* **Cloud & SaaS Visibility**: The audit will address complex environments such as SaaS and cloud-hosted applications, which cannot always be detected via traditional domain/IP scans.
+* **Local Entity Management**: The auditors plan to liaise with local entity contacts (the individuals supplying scan data into Qualys) to review local asset management practices and SOPs.
+
+---
+
+### **3. Three-Phase Execution Plan**
+1. **Kickoff & Alignment**: Initial document reviews (policies, standards) and alignment on mission scope and timelines.
+2. **Assessment & Execution**: Inventory audits, document reviews, completeness validation, third-party oversight, and exposure management evaluations.
+3. **Reporting & Conclusion**: Consolidating findings into an independent report with risk-based recommendations and Permanent Corrective Actions (PCAs).
+
+---
+
+### **4. Team Roles & Governance**
+* **Audit Team**: The core audit team consists of the primary contact, **Tiago**, and **Thomas**, all reporting to **Cherif**. The team is based in Porto.
+* **Primary Client Contact**: **Jerome** will serve as the primary point of contact for the audit team over the next two weeks while his colleague is away.
+
+---
+
+### **5. Data Sharing & Operational Logistics**
+* **Request Tracking**: All questions, document requests, and answers will be formally logged and tracked in a shared Excel tracker.
+* **Data Sensitivity & Scope**: The client raised concerns regarding vulnerability data sensitivity. The audit team clarified that they **only require asset lists**, not vulnerability information. Secure sharing protocols will be used if sensitive data needs to be viewed.
