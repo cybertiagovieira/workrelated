@@ -1,0 +1,119 @@
+briefing:
+  title: "Executive Adverse News Briefing – UK Banking & Financial Entities"
+  recipient: "Jules"
+  author: "Tiago Vieira"
+  period:
+    start: 2026-10-12
+    end: 2026-10-19
+  material_incident_count: 9
+  executive_summary: >-
+    This executive adverse news briefing covers 9 material incidents for UK banking
+    and financial entities during 12–19 October 2026. The period was marked by
+    heightened regulatory scrutiny, with the FCA placing Jarvis Investment Management
+    and ePayments Systems into special administration and Aldermore Bank facing
+    £750 million in motor finance redress provisions ahead of Upper Tribunal hearings
+    in February 2027. Financial crime risks included FCA arrests for insider dealing
+    and a £2 million investment fraud prosecution, while operational resilience
+    concerns emerged from a cyber attack on ABC International Bank, phishing warnings
+    from NatWest, and payment processing failures at Nationwide and Co-operative Bank.
+
+  sections:
+    - id: 1
+      category: "Regulatory Enforcement & Legal Risks"
+      incidents:
+        - entity: "Jarvis Investment Management & ePayments Systems"
+          date: [2026-10-14, 2026-10-15]
+          summary: >-
+            The FCA announced that both Jarvis Investment Management Limited and
+            ePayments Systems Limited entered special administration under
+            court-appointed insolvency practitioners due to capital adequacy and
+            operational compliance failures, freezing client assets and operations.
+          source: "https://www.fca.org.uk/news/news-stories/jarvis-investment-management-limited-enters-special-administration"
+
+        - entity: "UK Financial Sector Governance (FCA Multi-Firm Review)"
+          date: 2026-10-12
+          summary: >-
+            The FCA published multi-firm governance review findings establishing
+            mandatory expectations for UK banks, benchmark administrators, and
+            financial institutions to strengthen board challenge, record
+            decision-making, and ensure clear oversight of executive actions.
+          source: "https://www.globalfinregblog.com/2026/10/fca-sets-out-expectations-on-firms-governance-arrangements/"
+
+        - entity: "UK Asset Management & Banking Wealth Units (FCA CP26/35)"
+          date: 2026-10-16
+          summary: >-
+            The FCA published Consultation Paper CP26/35 proposing mandatory 90-day
+            minimum notice periods and monthly redemption limits for funds investing
+            in illiquid assets, requiring UK wealth management and banking divisions
+            to re-architect product liquidity terms.
+          source: "https://www.simmons-simmons.com/en/publications/cmvakk46l00xoudt0lst0uji8/cp26-35-redemption-terms-for-funds-investing-in-illiquid-assets"
+
+        - entity: "Aldermore Bank Plc"
+          date: 2026-10-13
+          summary: >-
+            The UK Upper Tribunal scheduled hearings for 16–26 February 2027 to hear
+            lender challenges against the FCA's motor finance redress scheme. Parent
+            company FirstRand put the bank up for sale due to redress exposure and
+            financial strain after setting aside £750 million in motor finance
+            mis-selling provisions.
+          key_figures:
+            redress_provision_gbp: 750000000
+            tribunal_hearing_window: { start: 2027-02-16, end: 2027-02-26 }
+          source: "https://www.cityam.com/motor-finance-legal-battle-set-for-february-2027/"
+
+    - id: 2
+      category: "Financial Crime & Compliance Risks"
+      incidents:
+        - entity: "UK Banking Sector (NatWest, Lloyds, Santander)"
+          date: 2026-10-16
+          summary: >-
+            Industry analysis highlighted customer friction over new Authorised Push
+            Payment (APP) fraud reimbursement rules, with major lenders confirming
+            they will deduct a fixed £100 excess on customer scam claims.
+          key_figures:
+            app_claim_excess_gbp: 100
+          source: "https://www.clearscore.com/learn/managing-money/bank-fraud-scam-excess-charge"
+
+        - entity: "Financial Conduct Authority (FCA Operations)"
+          date: 2026-10-13
+          summary: >-
+            The FCA announced three arrests in a major enforcement operation
+            targeting an active criminal insider dealing ring.
+          key_figures:
+            arrests: 3
+          source: "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
+
+        - entity: "Financial Conduct Authority (FCA Prosecution)"
+          date: 2026-10-12
+          summary: >-
+            Two individuals pleaded guilty at Portsmouth Crown Court in an FCA
+            criminal prosecution after clients lost £2 million in an unauthorised
+            investment fraud scheme.
+          key_figures:
+            client_losses_gbp: 2000000
+            defendants_pleading_guilty: 2
+          source: "https://www.fca.org.uk/news/press-releases/two-plead-guilty-after-clients-lose-2m-fraud-case"
+
+    - id: 3
+      category: "Operational & Cybersecurity Risks"
+      incidents:
+        - entity: "ABC International Bank Plc"
+          date: 2026-10-18
+          summary: >-
+            A cyber attack via an IT service provider's online-banking systems left
+            customer login unavailable for three days. The bank stated that
+            unauthorised parties accessed individual system components at the
+            provider, but no accounts or payments were affected, and there was no
+            spread to other systems.
+          key_figures:
+            login_outage_days: 3
+          source: "https://borncity.com/blog/2026/10/18/cyberangriff-auf-abc-bank-connectwise-cloud-backup-kompromittierung/"
+
+        - entity: "National Westminster Bank Public Limited Company"
+          date: 2026-10-17
+          summary: >-
+            NatWest warned customers about fraudulent phishing emails mimicking the
+            bank's branding and asking recipients to review and update their
+            personal details. No confirmed losses or breach of bank systems were
+            reported.
+          source: "https://www.birminghammail.co.uk/news/cost-of-living/natwest-issues-warning-over-email-34752474"
