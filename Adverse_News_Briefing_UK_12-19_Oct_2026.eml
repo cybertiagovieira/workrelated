@@ -1,14 +1,14 @@
 From: Tiago Vieira <tivieira01@gmail.com>
-To: Jules <jules@example.com>
 Subject: Executive Adverse News Briefing =?utf-8?b?4oCT?= UK Banking &
  Financial Entities =?utf-8?q?=2812=E2=80=9319?= October 2026)
-Date: Mon, 19 Oct 2026 15:24:00 +0100
+Date: Mon, 19 Oct 2026 15:39:54 +0100
+Message-ID: <179242079471.187.3242303130509765982@gmail.com>
 X-Unsent: 1
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============4934144095225992438=="
+ boundary="===============0477522799389455297=="
 
---===============4934144095225992438==
+--===============0477522799389455297==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -16,80 +16,107 @@ Good morning, Jules,
 
 Executive Summary
 
-This executive adverse news briefing covers 9 material incidents for UK banki=
-ng and financial entities during 12=E2=80=9319 October 2026. The period was m=
-arked by heightened regulatory scrutiny, with the FCA placing Jarvis Investme=
-nt Management and ePayments Systems into special administration and Aldermore=
- Bank facing =C2=A3750 million in motor finance redress provisions ahead of U=
-pper Tribunal hearings in February 2027. Financial crime risks included FCA a=
-rrests for insider dealing and a =C2=A32 million investment fraud prosecution=
-, while operational resilience concerns emerged from a cyber attack on ABC In=
-ternational Bank, phishing warnings from NatWest, and payment processing fail=
-ures at Nationwide and Co-operative Bank.
+This executive adverse news briefing covers 9 items relevant to UK banking an=
+d financial entities during 12=E2=80=9319 October 2026: eight UK developments=
+ and one non-UK cyber incident retained for third-party read-across. Regulato=
+ry pressure dominated the period: the FCA confirmed that Jarvis Investment Ma=
+nagement (14 October) and ePayments Systems (15 October) entered special admi=
+nistration, and the Upper Tribunal listed lender challenges to the FCA motor =
+finance redress scheme for 16=E2=80=9326 February 2027, prolonging redress un=
+certainty for exposed lenders such as Aldermore, which FirstRand is selling a=
+fter raising its UK motor finance provision to =C2=A3749 million. Financial c=
+rime developments included three FCA/NCA arrests targeting a suspected inside=
+r dealing and money laundering ring and guilty pleas in a =C2=A32 million inv=
+estment fraud. Operational and cyber items comprised a compromise of an IT se=
+rvice provider's online banking platform at Germany's abcbank and a NatWest p=
+hishing warning.
 
 1. Regulatory Enforcement & Legal Risks
 
-Jarvis Investment Management & ePayments Systems: On 14 and 15 October 2026, =
-the FCA announced that both Jarvis Investment Management Limited and ePayment=
-s Systems Limited entered special administration under court-appointed insolv=
-ency practitioners due to capital adequacy and operational compliance failure=
-s, freezing client assets and operations.
+Jarvis Investment Management & ePayments Systems: The FCA confirmed that Jarv=
+is Investment Management Limited entered special administration on 14 October=
+ 2026 (special administrators: Adam Stephens and Philip Hemming, S&W Partners=
+ LLP) and that ePayments Systems Limited entered special administration on 15=
+ October 2026. The FCA notices do not state the causes. Jarvis had operated u=
+nder an FCA voluntary requirement restricting its activities since September =
+2022. The regime prioritises the return of client money, custody assets and c=
+ustomer funds; the FSCS has published guidance for Jarvis clients.
 Source: https://www.fca.org.uk/news/news-stories/jarvis-investment-management=
 -limited-enters-special-administration
+Source: https://www.fca.org.uk/news/news-stories/epayments-systems-limited-en=
+ters-special-administration
 
 UK Financial Sector Governance (FCA Multi-Firm Review): On 12 October 2026, t=
-he FCA published multi-firm governance review findings establishing mandatory=
- expectations for UK banks, benchmark administrators, and financial instituti=
-ons to strengthen board challenge, record decision-making, and ensure clear o=
-versight of executive actions.
+he FCA set out its expectations following a multi-firm review of governance a=
+rrangements, focusing on effective board challenge, the recording of decision=
+-making and clear oversight of executive actions. Multi-firm review findings =
+are supervisory expectations rather than new rules, but are likely to inform =
+future supervisory assessments.
 Source: https://www.globalfinregblog.com/2026/10/fca-sets-out-expectations-on=
 -firms-governance-arrangements/
 
-UK Asset Management & Banking Wealth Units (FCA CP26/35): On 16 October 2026,=
- the FCA published Consultation Paper CP26/35 proposing mandatory 90-day mini=
-mum notice periods and monthly redemption limits for funds investing in illiq=
-uid assets, requiring UK wealth management and banking divisions to re-archit=
-ect product liquidity terms.
+UK Asset Management & Banking Wealth Units (FCA CP26/35): The FCA published C=
+onsultation Paper CP26/35 on 8 October 2026 (legal commentary dated 16 Octobe=
+r). It proposes that NURS funds investing at least 50% in inherently illiquid=
+ assets offer no more than one dealing day per month, with redemption notice =
+periods of at least 90 days. The proposals are not yet binding: the consultat=
+ion closes on 11 December 2026, final rules are expected in 2027 and a transi=
+tion period runs to 2029. Wealth and banking divisions distributing such fund=
+s should assess product liquidity terms.
 Source: https://www.simmons-simmons.com/en/publications/cmvakk46l00xoudt0lst0=
 uji8/cp26-35-redemption-terms-for-funds-investing-in-illiquid-assets
 
-Aldermore Bank Plc: On 13 October 2026, the UK Upper Tribunal scheduled heari=
-ngs for February 16=E2=80=9326, 2027, to hear lender challenges against the F=
-CA's motor finance redress scheme. Parent company FirstRand put the bank up f=
-or sale due to redress exposure and financial strain after setting aside =C2=
-=A3750 million in motor finance mis-selling provisions.
+Aldermore Bank Plc / FirstRand (UK Motor Finance Redress): On 13 October 2026=
+, it was reported that the Upper Tribunal has listed hearings for 16=E2=80=93=
+26 February 2027 on challenges to the FCA's motor finance redress scheme brou=
+ght by Volkswagen Financial Services, Mercedes-Benz Financial Services and Cr=
+=C3=A9dit Agricole Auto Finance, alongside a challenge by Consumer Voice. Ald=
+ermore is not a named party, but the outcome will shape its redress exposure.=
+ FirstRand is selling Aldermore and exiting the UK, citing the redress regime=
+; its UK motor finance provision stood at =C2=A3749 million at 30 June 2026.
 Source: https://www.cityam.com/motor-finance-legal-battle-set-for-february-20=
 27/
+Source: https://www.billionaires.africa/2026/09/10/mary-vilakazi-takes-firstr=
+and-out-of-britain-after-548-million-hit/
 
 2. Financial Crime & Compliance Risks
 
-UK Banking Sector (NatWest, Lloyds, Santander): Industry analysis published o=
-n 16 October 2026 highlighted customer friction over new Authorised Push Paym=
-ent (APP) fraud reimbursement rules, with major lenders confirming they will =
-deduct a fixed =C2=A3100 excess on customer scam claims.
+UK Banking Sector (Lloyds, Santander, NatWest, Nationwide, TSB): A ClearScore=
+ review dated 16 October 2026 found that banks apply the optional excess of u=
+p to =C2=A3100 unevenly under the APP fraud reimbursement regime in force sin=
+ce 7 October 2024. Lloyds and Santander deduct a fixed =C2=A3100, NatWest sai=
+d an excess could apply and first direct may deduct it, while Nationwide and =
+TSB do not apply one.
 Source: https://www.clearscore.com/learn/managing-money/bank-fraud-scam-exces=
 s-charge
 
-Financial Conduct Authority (FCA Operations): On 13 October 2026, the FCA ann=
-ounced three arrests in a major enforcement operation targeting an active cri=
-minal insider dealing ring.
+Financial Conduct Authority (FCA/NCA Operation): On 13 October 2026, the FCA =
+and the National Crime Agency arrested three people in a joint operation agai=
+nst a suspected organised criminal group involved in insider dealing and mone=
+y laundering. More than 100 officers searched five homes in London and Manche=
+ster.
 Source: https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-op=
 eration-against-criminal-insider-dealing-ring
 
-Financial Conduct Authority (FCA Prosecution): On 12 October 2026, two indivi=
-duals pleaded guilty at Portsmouth Crown Court in an FCA criminal prosecution=
- after clients lost =C2=A32 million in an unauthorized investment fraud schem=
-e.
+Financial Conduct Authority (FCA Prosecution): On 12 October 2026, the former=
+ director and the business operations manager of Nexus Independent Financial =
+Advisers and Nexus Investment Managers pleaded guilty at Portsmouth Crown Cou=
+rt to defrauding four clients of =C2=A32 million between 2019 and 2023. Sente=
+ncing is set for 10 December 2026.
 Source: https://www.fca.org.uk/news/press-releases/two-plead-guilty-after-cli=
 ents-lose-2m-fraud-case
 
 3. Operational & Cybersecurity Risks
 
-ABC International Bank Plc: On 18 October 2026, a cyber attack via an IT serv=
-ice provider's online-banking systems left customer login unavailable for thr=
-ee days. The bank stated that unauthorised parties accessed individual system=
- components at the provider, but no accounts or payments were affected, and t=
-here was no spread to other systems.
+abcbank GmbH (Germany) =E2=80=93 non-UK, third-party read-across: A German IT=
+ blog report dated 18 October 2026, based on customer correspondence, states =
+that unauthorised parties accessed individual system components at the IT ser=
+vice provider operating the bank's online banking, leaving customer login una=
+vailable for about three days. The bank told customers that no accounts, paym=
+ents or other systems were affected, but some customer data (e.g. mobile phon=
+e numbers) was accessed and customers were asked to change passwords. No offi=
+cial bank statement had been published and the report is unverified. Not to b=
+e confused with ABC International Bank Plc (UK).
 Source: https://borncity.com/blog/2026/10/18/cyberangriff-auf-abc-bank-connec=
 twise-cloud-backup-kompromittierung/
 
@@ -100,226 +127,339 @@ firmed losses or breach of bank systems were reported.
 Source: https://www.birminghammail.co.uk/news/cost-of-living/natwest-issues-w=
 arning-over-email-34752474
 
-Kind regards, Tiago Vieira
+Kind regards,
+Tiago Vieira
 
---===============4934144095225992438==
+--===============0477522799389455297==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 MIME-Version: 1.0
 
-<!DOCTYPE html><html><head><meta charset=3D"utf-8"><meta name=3D"color-scheme=
-" content=3D"dark"><meta name=3D"supported-color-schemes" content=3D"dark"></=
-head>
-<body style=3D"margin:0;padding:0;background:#000000;color:#FFFFFF;" bgcolor=
-=3D"#000000">
+<!DOCTYPE html>
+<html lang=3D"en"><head>
+<meta charset=3D"utf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1">
+<meta name=3D"color-scheme" content=3D"dark">
+<meta name=3D"supported-color-schemes" content=3D"dark">
+<title>Executive Adverse News Briefing =E2=80=93 UK Banking &amp; Financial E=
+ntities (12=E2=80=9319 October 2026)</title>
+<style>:root{color-scheme:dark;supported-color-schemes:dark;} body{margin:0;p=
+adding:0;background:#000000;}</style>
+</head>
+<body bgcolor=3D"#000000" style=3D"margin:0;padding:0;background:#000000;colo=
+r:#FFFFFF;">
 <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" bgcolor=3D"#000000" style=3D"background:#000000;"><tr><td align=3D"center"=
- style=3D"padding:24px 12px;">
+0" border=3D"0" bgcolor=3D"#000000" style=3D"background:#000000;">
+<tr><td align=3D"center" style=3D"padding:24px 12px;">
 <table role=3D"presentation" width=3D"680" cellpadding=3D"0" cellspacing=3D"0=
-" bgcolor=3D"#000000" style=3D"max-width:680px;width:100%;background:#000000;=
-border:1px solid #50C878;">
-<tr><td style=3D"background:#50C878;height:6px;line-height:6px;font-size:0;">=
-&nbsp;</td></tr>
-<tr><td style=3D"padding:28px 32px 4px 32px;font-family:Segoe UI,Arial,Helvet=
+" border=3D"0" bgcolor=3D"#000000" style=3D"max-width:680px;width:100%;backgr=
+ound:#000000;border:1px solid #50C878;">
+<tr><td bgcolor=3D"#50C878" style=3D"background:#50C878;height:6px;line-heigh=
+t:6px;font-size:0;">&nbsp;</td></tr>
+<tr><td style=3D"padding:28px 32px 4px 32px;font-family:'Segoe UI',Arial,Helv=
+etica,sans-serif;">
+  <p style=3D"margin:0;font-size:12px;letter-spacing:2px;text-transform:upper=
+case;color:#50C878;font-weight:bold;">Adverse News Briefing =C2=B7 UK Banking=
+ &amp; Financial Entities</p>
+  <p style=3D"margin:6px 0 0 0;font-size:13px;color:#BFBFBF;">Reporting perio=
+d: 12=E2=80=9319 October 2026</p>
+</td></tr>
+<tr><td style=3D"padding:20px 32px 0 32px;font-family:'Segoe UI',Arial,Helvet=
+ica,sans-serif;"><p style=3D"margin:0;font-size:15px;color:#FFFFFF;">Good mor=
+ning, Jules,</p></td></tr>
+<tr><td style=3D"padding:20px 32px 0 32px;font-family:'Segoe UI',Arial,Helvet=
 ica,sans-serif;">
-<p style=3D"margin:0;font-size:12px;letter-spacing:2px;text-transform:upperca=
-se;color:#50C878;font-weight:bold;">Adverse News Briefing =C2=B7 UK Banking &=
-amp; Financial Entities</p>
-<p style=3D"margin:6px 0 0 0;font-size:13px;color:#BFBFBF;">Reporting period:=
- 12=E2=80=9319 October 2026</p></td></tr>
-<tr><td style=3D"padding:20px 32px 0 32px;font-family:Segoe UI,Arial,Helvetic=
-a,sans-serif;"><p style=3D"margin:0;font-size:15px;color:#FFFFFF;">Good morni=
-ng, Jules,</p></td></tr>
-<tr><td style=3D"padding:20px 32px 0 32px;font-family:Segoe UI,Arial,Helvetic=
-a,sans-serif;"><h1 style=3D"margin:0 0 10px 0;font-size:22px;color:#50C878;">=
-Executive Summary</h1>
-<p style=3D"margin:0;font-size:14px;line-height:1.6;color:#FFFFFF;">This exec=
-utive adverse news briefing covers 9 material incidents for UK banking and fi=
-nancial entities during 12=E2=80=9319 October 2026. The period was marked by =
-heightened regulatory scrutiny, with the FCA placing Jarvis Investment Manage=
-ment and ePayments Systems into special administration and Aldermore Bank fac=
-ing =C2=A3750 million in motor finance redress provisions ahead of Upper Trib=
-unal hearings in February 2027. Financial crime risks included FCA arrests fo=
-r insider dealing and a =C2=A32 million investment fraud prosecution, while o=
-perational resilience concerns emerged from a cyber attack on ABC Internation=
-al Bank, phishing warnings from NatWest, and payment processing failures at N=
-ationwide and Co-operative Bank.</p></td></tr>
-<tr><td style=3D"padding:28px 32px 8px 32px;font-family:Segoe UI,Arial,Helvet=
-ica,sans-serif;"><h2 style=3D"margin:0;font-size:18px;color:#50C878;border-bo=
-ttom:2px solid #50C878;padding-bottom:8px;">1. Regulatory Enforcement &amp; L=
-egal Risks</h2></td></tr><tr><td style=3D"padding:12px 32px;font-family:Segoe=
- UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-Jarvis Investment Management &amp; ePayments Systems</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 14 and 15 October 2026, the FCA announced that both Jarvis Investment Man=
-agement Limited and ePayments Systems Limited entered special administration =
-under court-appointed insolvency practitioners due to capital adequacy and op=
-erational compliance failures, freezing client assets and operations.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.fca.org.uk/news/news-stories/jarvis-investment-management-limited-enter=
-s-special-administration" style=3D"color:#50C878;text-decoration:underline;wo=
-rd-break:break-all;">https://www.fca.org.uk/news/news-stories/jarvis-investme=
-nt-management-limited-enters-special-administration</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:12px 32px;font-family:Se=
-goe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-UK Financial Sector Governance (FCA Multi-Firm Review)</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 12 October 2026, the FCA published multi-firm governance review findings =
-establishing mandatory expectations for UK banks, benchmark administrators, a=
-nd financial institutions to strengthen board challenge, record decision-maki=
-ng, and ensure clear oversight of executive actions.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.globalfinregblog.com/2026/10/fca-sets-out-expectations-on-firms-governa=
-nce-arrangements/" style=3D"color:#50C878;text-decoration:underline;word-brea=
-k:break-all;">https://www.globalfinregblog.com/2026/10/fca-sets-out-expectati=
-ons-on-firms-governance-arrangements/</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:12px 32px;font-family:Se=
-goe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-UK Asset Management &amp; Banking Wealth Units (FCA CP26/35)</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 16 October 2026, the FCA published Consultation Paper CP26/35 proposing m=
-andatory 90-day minimum notice periods and monthly redemption limits for fund=
-s investing in illiquid assets, requiring UK wealth management and banking di=
-visions to re-architect product liquidity terms.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.simmons-simmons.com/en/publications/cmvakk46l00xoudt0lst0uji8/cp26-35-r=
-edemption-terms-for-funds-investing-in-illiquid-assets" style=3D"color:#50C87=
-8;text-decoration:underline;word-break:break-all;">https://www.simmons-simmon=
-s.com/en/publications/cmvakk46l00xoudt0lst0uji8/cp26-35-redemption-terms-for-=
-funds-investing-in-illiquid-assets</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:12px 32px;font-family:Se=
-goe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-Aldermore Bank Plc</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 13 October 2026, the UK Upper Tribunal scheduled hearings for February 16=
-=E2=80=9326, 2027, to hear lender challenges against the FCA&#x27;s motor fin=
-ance redress scheme. Parent company FirstRand put the bank up for sale due to=
- redress exposure and financial strain after setting aside =C2=A3750 million =
-in motor finance mis-selling provisions.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.cityam.com/motor-finance-legal-battle-set-for-february-2027/" style=3D"=
-color:#50C878;text-decoration:underline;word-break:break-all;">https://www.ci=
-tyam.com/motor-finance-legal-battle-set-for-february-2027/</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:28px 32px 8px 32px;font-=
-family:Segoe UI,Arial,Helvetica,sans-serif;"><h2 style=3D"margin:0;font-size:=
-18px;color:#50C878;border-bottom:2px solid #50C878;padding-bottom:8px;">2. Fi=
-nancial Crime &amp; Compliance Risks</h2></td></tr><tr><td style=3D"padding:1=
-2px 32px;font-family:Segoe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-UK Banking Sector (NatWest, Lloyds, Santander)</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->Industry analysis published on 16 October 2026 highlighted customer friction=
- over new Authorised Push Payment (APP) fraud reimbursement rules, with major=
- lenders confirming they will deduct a fixed =C2=A3100 excess on customer sca=
-m claims.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.clearscore.com/learn/managing-money/bank-fraud-scam-excess-charge" styl=
-e=3D"color:#50C878;text-decoration:underline;word-break:break-all;">https://w=
-ww.clearscore.com/learn/managing-money/bank-fraud-scam-excess-charge</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:12px 32px;font-family:Se=
-goe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-Financial Conduct Authority (FCA Operations)</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 13 October 2026, the FCA announced three arrests in a major enforcement o=
-peration targeting an active criminal insider dealing ring.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-agains=
-t-criminal-insider-dealing-ring" style=3D"color:#50C878;text-decoration:under=
-line;word-break:break-all;">https://www.fca.org.uk/news/press-releases/three-=
-arrests-major-fca-operation-against-criminal-insider-dealing-ring</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:12px 32px;font-family:Se=
-goe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-Financial Conduct Authority (FCA Prosecution)</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 12 October 2026, two individuals pleaded guilty at Portsmouth Crown Court=
- in an FCA criminal prosecution after clients lost =C2=A32 million in an unau=
-thorized investment fraud scheme.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.fca.org.uk/news/press-releases/two-plead-guilty-after-clients-lose-2m-f=
-raud-case" style=3D"color:#50C878;text-decoration:underline;word-break:break-=
-all;">https://www.fca.org.uk/news/press-releases/two-plead-guilty-after-clien=
-ts-lose-2m-fraud-case</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:28px 32px 8px 32px;font-=
-family:Segoe UI,Arial,Helvetica,sans-serif;"><h2 style=3D"margin:0;font-size:=
-18px;color:#50C878;border-bottom:2px solid #50C878;padding-bottom:8px;">3. Op=
-erational &amp; Cybersecurity Risks</h2></td></tr><tr><td style=3D"padding:12=
-px 32px;font-family:Segoe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-ABC International Bank Plc</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 18 October 2026, a cyber attack via an IT service provider&#x27;s online-=
-banking systems left customer login unavailable for three days. The bank stat=
-ed that unauthorised parties accessed individual system components at the pro=
-vider, but no accounts or payments were affected, and there was no spread to =
-other systems.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//borncity.com/blog/2026/10/18/cyberangriff-auf-abc-bank-connectwise-cloud-ba=
-ckup-kompromittierung/" style=3D"color:#50C878;text-decoration:underline;word=
--break:break-all;">https://borncity.com/blog/2026/10/18/cyberangriff-auf-abc-=
-bank-connectwise-cloud-backup-kompromittierung/</a></p>
-</td></tr></table></td></tr><tr><td style=3D"padding:12px 32px;font-family:Se=
-goe UI,Arial,Helvetica,sans-serif;">
-<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
-0" style=3D"background:#0D0D0D;border-left:4px solid #50C878;">
-<tr><td style=3D"padding:14px 18px;font-family:Segoe UI,Arial,Helvetica,sans-=
-serif;">
-<p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#FFFFFF;">=
-National Westminster Bank Public Limited Company</p>
-<p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#FFFFFF;"=
->On 17 October 2026, NatWest warned customers about fraudulent phishing email=
-s mimicking the bank&#x27;s branding and asking recipients to review and upda=
-te their personal details. No confirmed losses or breach of bank systems were=
- reported.</p>
-<p style=3D"margin:0;font-size:12px;color:#BFBFBF;">Source: <a href=3D"https:=
-//www.birminghammail.co.uk/news/cost-of-living/natwest-issues-warning-over-em=
-ail-34752474" style=3D"color:#50C878;text-decoration:underline;word-break:bre=
-ak-all;">https://www.birminghammail.co.uk/news/cost-of-living/natwest-issues-=
-warning-over-email-34752474</a></p>
-</td></tr></table></td></tr>
-<tr><td style=3D"padding:28px 32px 32px 32px;font-family:Segoe UI,Arial,Helve=
-tica,sans-serif;"><p style=3D"margin:0;font-size:14px;color:#FFFFFF;">Kind re=
-gards,<br><span style=3D"color:#50C878;font-weight:bold;">Tiago Vieira</span>=
-</p></td></tr>
-<tr><td style=3D"background:#50C878;height:6px;line-height:6px;font-size:0;">=
-&nbsp;</td></tr>
-</table></td></tr></table></body></html>
+  <h1 style=3D"margin:0 0 10px 0;font-size:22px;color:#50C878;">Executive Sum=
+mary</h1>
+  <p style=3D"margin:0;font-size:14px;line-height:1.6;color:#FFFFFF;">This ex=
+ecutive adverse news briefing covers 9 items relevant to UK banking and finan=
+cial entities during 12=E2=80=9319 October 2026: eight UK developments and on=
+e non-UK cyber incident retained for third-party read-across. Regulatory pres=
+sure dominated the period: the FCA confirmed that Jarvis Investment Managemen=
+t (14 October) and ePayments Systems (15 October) entered special administrat=
+ion, and the Upper Tribunal listed lender challenges to the FCA motor finance=
+ redress scheme for 16=E2=80=9326 February 2027, prolonging redress uncertain=
+ty for exposed lenders such as Aldermore, which FirstRand is selling after ra=
+ising its UK motor finance provision to =C2=A3749 million. Financial crime de=
+velopments included three FCA/NCA arrests targeting a suspected insider deali=
+ng and money laundering ring and guilty pleas in a =C2=A32 million investment=
+ fraud. Operational and cyber items comprised a compromise of an IT service p=
+rovider&#x27;s online banking platform at Germany&#x27;s abcbank and a NatWes=
+t phishing warning.</p>
+</td></tr>
+<tr><td style=3D"padding:28px 32px 8px 32px;font-family:'Segoe UI',Arial,Helv=
+etica,sans-serif;"><h2 style=3D"margin:0;font-size:18px;color:#50C878;border-=
+bottom:2px solid #50C878;padding-bottom:8px;">1. Regulatory Enforcement &amp;=
+ Legal Risks</h2></td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">Jarvis Investment Management &amp; ePayments Systems</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">The FCA confirmed that Jarvis Investment Management Limited entered =
+special administration on 14 October 2026 (special administrators: Adam Steph=
+ens and Philip Hemming, S&amp;W Partners LLP) and that ePayments Systems Limi=
+ted entered special administration on 15 October 2026. The FCA notices do not=
+ state the causes. Jarvis had operated under an FCA voluntary requirement res=
+tricting its activities since September 2022. The regime prioritises the retu=
+rn of client money, custody assets and customer funds; the FSCS has published=
+ guidance for Jarvis clients.</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ources:<br><a href=3D"https://www.fca.org.uk/news/news-stories/jarvis-investm=
+ent-management-limited-enters-special-administration" style=3D"color:#50C878;=
+text-decoration:underline;word-break:break-all;">https://www.fca.org.uk/news/=
+news-stories/jarvis-investment-management-limited-enters-special-administrati=
+on</a><br><a href=3D"https://www.fca.org.uk/news/news-stories/epayments-syste=
+ms-limited-enters-special-administration" style=3D"color:#50C878;text-decorat=
+ion:underline;word-break:break-all;">https://www.fca.org.uk/news/news-stories=
+/epayments-systems-limited-enters-special-administration</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">UK Financial Sector Governance (FCA Multi-Firm Review)</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">On 12 October 2026, the FCA set out its expectations following a mul=
+ti-firm review of governance arrangements, focusing on effective board challe=
+nge, the recording of decision-making and clear oversight of executive action=
+s. Multi-firm review findings are supervisory expectations rather than new ru=
+les, but are likely to inform future supervisory assessments.</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ource:<br><a href=3D"https://www.globalfinregblog.com/2026/10/fca-sets-out-ex=
+pectations-on-firms-governance-arrangements/" style=3D"color:#50C878;text-dec=
+oration:underline;word-break:break-all;">https://www.globalfinregblog.com/202=
+6/10/fca-sets-out-expectations-on-firms-governance-arrangements/</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">UK Asset Management &amp; Banking Wealth Units (FCA CP26/35)</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">The FCA published Consultation Paper CP26/35 on 8 October 2026 (lega=
+l commentary dated 16 October). It proposes that NURS funds investing at leas=
+t 50% in inherently illiquid assets offer no more than one dealing day per mo=
+nth, with redemption notice periods of at least 90 days. The proposals are no=
+t yet binding: the consultation closes on 11 December 2026, final rules are e=
+xpected in 2027 and a transition period runs to 2029. Wealth and banking divi=
+sions distributing such funds should assess product liquidity terms.</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ource:<br><a href=3D"https://www.simmons-simmons.com/en/publications/cmvakk46=
+l00xoudt0lst0uji8/cp26-35-redemption-terms-for-funds-investing-in-illiquid-as=
+sets" style=3D"color:#50C878;text-decoration:underline;word-break:break-all;"=
+>https://www.simmons-simmons.com/en/publications/cmvakk46l00xoudt0lst0uji8/cp=
+26-35-redemption-terms-for-funds-investing-in-illiquid-assets</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">Aldermore Bank Plc / FirstRand (UK Motor Finance Redress)</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">On 13 October 2026, it was reported that the Upper Tribunal has list=
+ed hearings for 16=E2=80=9326 February 2027 on challenges to the FCA&#x27;s m=
+otor finance redress scheme brought by Volkswagen Financial Services, Mercede=
+s-Benz Financial Services and Cr=C3=A9dit Agricole Auto Finance, alongside a =
+challenge by Consumer Voice. Aldermore is not a named party, but the outcome =
+will shape its redress exposure. FirstRand is selling Aldermore and exiting t=
+he UK, citing the redress regime; its UK motor finance provision stood at =C2=
+=A3749 million at 30 June 2026.</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ources:<br><a href=3D"https://www.cityam.com/motor-finance-legal-battle-set-f=
+or-february-2027/" style=3D"color:#50C878;text-decoration:underline;word-brea=
+k:break-all;">https://www.cityam.com/motor-finance-legal-battle-set-for-febru=
+ary-2027/</a><br><a href=3D"https://www.billionaires.africa/2026/09/10/mary-v=
+ilakazi-takes-firstrand-out-of-britain-after-548-million-hit/" style=3D"color=
+:#50C878;text-decoration:underline;word-break:break-all;">https://www.billion=
+aires.africa/2026/09/10/mary-vilakazi-takes-firstrand-out-of-britain-after-54=
+8-million-hit/</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr><tr><td style=3D"padding:28px 32px 8px 32px;font-family:'Segoe UI',=
+Arial,Helvetica,sans-serif;"><h2 style=3D"margin:0;font-size:18px;color:#50C8=
+78;border-bottom:2px solid #50C878;padding-bottom:8px;">2. Financial Crime &a=
+mp; Compliance Risks</h2></td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">UK Banking Sector (Lloyds, Santander, NatWest, Nationwide, TSB)</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">A ClearScore review dated 16 October 2026 found that banks apply the=
+ optional excess of up to =C2=A3100 unevenly under the APP fraud reimbursemen=
+t regime in force since 7 October 2024. Lloyds and Santander deduct a fixed =
+=C2=A3100, NatWest said an excess could apply and first direct may deduct it,=
+ while Nationwide and TSB do not apply one.</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ource:<br><a href=3D"https://www.clearscore.com/learn/managing-money/bank-fra=
+ud-scam-excess-charge" style=3D"color:#50C878;text-decoration:underline;word-=
+break:break-all;">https://www.clearscore.com/learn/managing-money/bank-fraud-=
+scam-excess-charge</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">Financial Conduct Authority (FCA/NCA Operation)</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">On 13 October 2026, the FCA and the National Crime Agency arrested t=
+hree people in a joint operation against a suspected organised criminal group=
+ involved in insider dealing and money laundering. More than 100 officers sea=
+rched five homes in London and Manchester.</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ource:<br><a href=3D"https://www.fca.org.uk/news/press-releases/three-arrests=
+-major-fca-operation-against-criminal-insider-dealing-ring" style=3D"color:#5=
+0C878;text-decoration:underline;word-break:break-all;">https://www.fca.org.uk=
+/news/press-releases/three-arrests-major-fca-operation-against-criminal-insid=
+er-dealing-ring</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">Financial Conduct Authority (FCA Prosecution)</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">On 12 October 2026, the former director and the business operations =
+manager of Nexus Independent Financial Advisers and Nexus Investment Managers=
+ pleaded guilty at Portsmouth Crown Court to defrauding four clients of =C2=
+=A32 million between 2019 and 2023. Sentencing is set for 10 December 2026.</=
+p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ource:<br><a href=3D"https://www.fca.org.uk/news/press-releases/two-plead-gui=
+lty-after-clients-lose-2m-fraud-case" style=3D"color:#50C878;text-decoration:=
+underline;word-break:break-all;">https://www.fca.org.uk/news/press-releases/t=
+wo-plead-guilty-after-clients-lose-2m-fraud-case</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr><tr><td style=3D"padding:28px 32px 8px 32px;font-family:'Segoe UI',=
+Arial,Helvetica,sans-serif;"><h2 style=3D"margin:0;font-size:18px;color:#50C8=
+78;border-bottom:2px solid #50C878;padding-bottom:8px;">3. Operational &amp; =
+Cybersecurity Risks</h2></td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">abcbank GmbH (Germany) =E2=80=93 non-UK, third-party read-across</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">A German IT blog report dated 18 October 2026, based on customer cor=
+respondence, states that unauthorised parties accessed individual system comp=
+onents at the IT service provider operating the bank&#x27;s online banking, l=
+eaving customer login unavailable for about three days. The bank told custome=
+rs that no accounts, payments or other systems were affected, but some custom=
+er data (e.g. mobile phone numbers) was accessed and customers were asked to =
+change passwords. No official bank statement had been published and the repor=
+t is unverified. Not to be confused with ABC International Bank Plc (UK).</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ource:<br><a href=3D"https://borncity.com/blog/2026/10/18/cyberangriff-auf-ab=
+c-bank-connectwise-cloud-backup-kompromittierung/" style=3D"color:#50C878;tex=
+t-decoration:underline;word-break:break-all;">https://borncity.com/blog/2026/=
+10/18/cyberangriff-auf-abc-bank-connectwise-cloud-backup-kompromittierung/</a=
+></p>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+<tr><td style=3D"padding:12px 32px;font-family:'Segoe UI',Arial,Helvetica,san=
+s-serif;">
+  <table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#111111" style=3D"background:#111111;">
+    <tr>
+      <td width=3D"4" bgcolor=3D"#50C878" style=3D"background:#50C878;width:4=
+px;font-size:0;line-height:0;">&nbsp;</td>
+      <td bgcolor=3D"#111111" style=3D"background:#111111;padding:14px 18px;f=
+ont-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+        <p style=3D"margin:0 0 6px 0;font-size:15px;font-weight:bold;color:#F=
+FFFFF;">National Westminster Bank Public Limited Company</p>
+        <p style=3D"margin:0 0 10px 0;font-size:14px;line-height:1.55;color:#=
+FFFFFF;">On 17 October 2026, NatWest warned customers about fraudulent phishi=
+ng emails mimicking the bank&#x27;s branding and asking recipients to review =
+and update their personal details. No confirmed losses or breach of bank syst=
+ems were reported.</p>
+        <p style=3D"margin:0;font-size:12px;line-height:1.5;color:#BFBFBF;">S=
+ource:<br><a href=3D"https://www.birminghammail.co.uk/news/cost-of-living/nat=
+west-issues-warning-over-email-34752474" style=3D"color:#50C878;text-decorati=
+on:underline;word-break:break-all;">https://www.birminghammail.co.uk/news/cos=
+t-of-living/natwest-issues-warning-over-email-34752474</a></p>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+<tr><td style=3D"padding:28px 32px 32px 32px;font-family:'Segoe UI',Arial,Hel=
+vetica,sans-serif;">
+  <p style=3D"margin:0;font-size:14px;color:#FFFFFF;">Kind regards,<br><span =
+style=3D"color:#50C878;font-weight:bold;">Tiago Vieira</span></p>
+</td></tr>
+<tr><td bgcolor=3D"#50C878" style=3D"background:#50C878;height:6px;line-heigh=
+t:6px;font-size:0;">&nbsp;</td></tr>
+</table>
+</td></tr></table>
+</body></html>
 
---===============4934144095225992438==--
+--===============0477522799389455297==--
