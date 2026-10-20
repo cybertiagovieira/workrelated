@@ -1,0 +1,46 @@
+### What Happened
+
+On October 20, 2026 (beginning October 19 at 23:08 PDT / October 20 at 06:08 UTC), a major infrastructure disruption affected Google Cloud’s London-based **`europe-west2`** region. The incident originated from a physical power outage in the `europe-west2-b` availability zone. Although the physical power loss was confined to zone `b`, cascading cross-zonal dependencies induced elevated latency, API timeouts, and network degradation across the broader `europe-west2` region, impacting core services including Compute Engine, Cloud SQL, BigQuery, GKE, and Looker.
+
+### What Was the Business Impact
+
+* **Revolut Impact:** Direct operational impact was confirmed. Revolut experienced widespread service disruption due to backend infrastructure reliance on GCP. The application reported functionality as "partly unavailable," affecting user sign-ins, point-of-sale card transactions, bank transfers, ATM withdrawals, and trading features. Account balances and core ledger data remained fully secure.
+
+
+* **Broader Financial & Commercial Impact:** Elevated error rates and service degradations were reported across multiple financial institutions, including Halifax, Lloyds Banking Group, HSBC, ING Germany, and the Emma budgeting platform.
+
+
+* **Public Sector & Logistics:** The UK nationwide Cloud Video Platform (CVP) failed, causing delays and cancellations across court hearings in England and Wales. Digital logistics operations for commercial delivery providers (DPD UK, Royal Mail) and ticketing platforms were also temporarily disrupted.
+
+
+
+### What Is Being Done & Next Steps (Status as of October 20, 2026)
+
+* **Status:** Mitigation of the facility power event in `europe-west2-b` was confirmed by Google Cloud, with infrastructure recovery completed for the vast majority of customer workloads. Restoration of normal service was subsequently reported by affected third-party applications, including Revolut.
+
+
+* **Regulatory Inquiries:** Formal inquiries were initiated by UK financial regulators—the Financial Conduct Authority (FCA) and the Prudential Regulation Authority (PRA)—under the Critical Third Parties (CTPs) regime to evaluate operational resilience and systemic concentration risk.
+
+
+* **Next Steps:** Residual system health verification is being completed by Google Cloud engineering teams, with a formal post-incident Root Cause Analysis (RCA) scheduled for publication following internal investigations.
+
+
+
+### Potential Root Causes
+
+* **Primary Facility Failure:** A localized utility power disruption or electrical distribution fault (such as switchgear or uninterruptible power supply transfer failure) within the `europe-west2-b` data center facility.
+
+
+* **Control Plane Coupling:** Tightly coupled regional control plane architecture (including internal DNS resolution, IAM authorization tokens, and load balancer health checks) dependent on `europe-west2-b` failed to isolate cleanly, propagating operational degradation to active workloads in zones `a` and `c`.
+
+
+
+### Sources & References
+
+* **Google Cloud Service Health Dashboard:** Official Incident Reports for `europe-west2` (Oct 20, 2026).
+
+
+* **UK Regulatory Disclosures:** FCA & Bank of England PRA Statements on Critical Third Parties.
+
+
+* **Financial & Tech Media:** Live Operational Tracking via *The Guardian*, *Reuters*, and *TechRadar*.
