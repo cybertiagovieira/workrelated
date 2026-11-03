@@ -1,0 +1,27 @@
+**Description**
+
+The Monthly Risk Intelligence Suite is an automated pipeline that produces three executive briefings each month:
+- **AI Threat Intelligence Briefing:** AI-enabled attacks, fraud, dependence on AI providers and supervisory action.
+- **Cloud Threat Briefing:** exploited vulnerabilities, cloud and SaaS (software-as-a-service) incidents, identity abuse and supplier compromise.
+- **Digital Assets & Crypto Risk Outlook:** market conditions, custody and protocol incidents, illicit finance and regulatory mandates.
+
+Each run follows the same four steps:
+- **Scan:** monitors six research streams across the previous calendar month.
+- **Filter:** keeps only developments confirmed by primary sources and relevant to banking. Opinion, vendor marketing and unconfirmed claims are dropped.
+- **Translate:** turns technical findings into business risk, moving from operational vulnerability to concentration risk to geopolitical threat to financial and regulatory impact.
+- **Judge:** issues a second-line (2LoD) conclusion against the Risk Appetite Framework and challenges first-line assumptions.
+
+Output is one slide per domain for the Group CRO and Risk Committee. Sources are kept in an internal evidence register, not on the slide.
+
+**Value Proposition**
+- **Decision-ready:** turns hundreds of technical signals into three one-page conclusions with clear actions and owners.
+- **Evidence-led:** every claim traces to a primary source, which makes the briefing defensible in front of the Risk Committee, auditors and supervisors.
+- **Systemic view:** shows where risk concentrates on shared providers (AI models, cloud, crypto custodians), not only isolated events.
+- **Regulatory alignment:** links developments directly to obligations under DORA (Digital Operational Resilience Act), the AI Act, NIS2, MiCA (Markets in Crypto-Assets) and AML/CFT (anti-money laundering and counter-terrorist financing), and to management-body accountability.
+- **Effective challenge:** builds structured second-line challenge to the first line on patching speed, supplier assurance, identity, custody and tested recovery.
+- **Consistent and efficient:** applies the same method, format and wording controls every month. This cuts analyst preparation from days to hours and makes trends comparable over time.
+
+**Frequency**
+- **Scheduled:** monthly. Each run starts on the first working day of the month and covers the full previous calendar month (1 to 31, not a rolling 30 days).
+- **On demand:** runs can be triggered manually for a past month, or re-run when a late disclosure, source correction or geopolitical event changes the monthly conclusion.
+- **Corrections:** each run checks for late disclosures about earlier months and flags any material change in the next briefing.
