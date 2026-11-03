@@ -1,0 +1,25 @@
+flowchart LR
+    classDef ask fill:#FFFFFF,stroke:#00915E,stroke-width:2px,color:#111
+    classDef step fill:#F3FAF7,stroke:#00915E,color:#111
+    classDef out fill:#00915E,stroke:#00915E,color:#FFFFFF
+    classDef aud fill:#FFFFFF,stroke:#333,stroke-dasharray:4 3,color:#111
+
+    A["Sector question<br/>Which sector, which period?"]:::ask --> B{"Proprietary threat<br/>intelligence available?"}:::ask
+
+    B -- "Yes - Silobreaker research" --> C1["Ingest & challenge<br/>vendor findings"]:::step
+    B -- "No - public sources only" --> C2["Independent research<br/>15 standard questions"]:::step
+
+    C1 --> D["Confirm with primary sources<br/>official, regulatory, victim disclosures"]:::step
+    C2 --> D
+
+    D --> E["Translate into business risk<br/>threats, real incidents, financial impact,<br/>worst-case scenarios, dependencies, regulation"]:::step
+
+    E --> F["Independent quality challenge<br/>fact vs judgment vs assumption"]:::step
+
+    F --> G1["Risk Committee readout<br/>7 slides"]:::out
+    F --> G2["Credit Officer briefing<br/>12 slides + exposure ratings"]:::out
+    F --> G3["Full report + evidence annex<br/>audit trail"]:::out
+
+    G1 --> H["Decisions<br/>priorities, challenge to 1LoD,<br/>credit and resilience actions"]:::aud
+    G2 --> H
+    G3 --> H
